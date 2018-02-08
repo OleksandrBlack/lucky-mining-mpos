@@ -110,7 +110,51 @@
 	<translation id="getd4">или</translation>
 	<translation id="getd5">Зарегистрируйтесь на бирже</translation>
 	<translation id="getd6">Создайте новый адрес и введите его на странице своей учетной записи для получения платежей.</translation>
-	
+	<translation id="nava1">Редактировать Аккаунт</translation>
+	<translation id="nava2">Мои Воркеры</translation>
+	<translation id="nava3">Транзакции</translation>
+	<translation id="nava4">Earnings</translation>
+	<translation id="nava5">Notifications</translation>
+	<translation id="nava6">Invitations</translation>
+	<translation id="nava7">QR коды</translation>
+	<translation id="nava8">Система</translation>
+	<translation id="nava9">Setup</translation>
+	<translation id="navb1">Главная панель</translation>
+	<translation id="navb2">Мониторинг</translation>
+	<translation id="navb3">Настройки</translation>
+	<translation id="navb4">Фонды</translation>
+	<translation id="navb5">Информация о кошельке</translation>
+	<translation id="navb6">Транзакции</translation>
+	<translation id="navb7">Новости</translation>
+	<translation id="navb8">Новости сайта</translation>
+	<translation id="navb9">Newsletter</translation>
+	<translation id="navc1">Пользователи</translation>
+	<translation id="navc2">Информация о пользователях</translation>
+	<translation id="navc3">Отчеты</translation>
+	<translation id="navc4">Регистрация</translation>
+	<translation id="navc5">Invitations</translation>
+	<translation id="navc6">Воркеры Пула</translation>
+	<translation id="navc7">Статистика</translation>
+	<translation id="navc8">Пул</translation>
+	<translation id="navc9">Блоки</translation>
+	<translation id="navd1">Раунд</translation>
+	<translation id="navd2">Blockfinder</translation>
+	<translation id="navd3">Uptime</translation>
+	<translation id="navd4">Graphs</translation>
+	<translation id="navd5">Donors</translation>
+	<translation id="navd6">Help</translation>
+	<translation id="navd7">Как начать</translation>
+	<translation id="navd8">О нас</translation>
+	<translation id="navd9">Чат</translation>
+	<translation id="navс1">Форум</translation>
+	<translation id="navс2">Другое</translation>
+	<translation id="navс3">Выйти</translation>
+	<translation id="navс4">Войти</translation>
+	<translation id="navс5">Зарегистрироваться</translation>
+	<translation id="navс6">Контакты</translation>
+	<translation id="navс7">Условия и Положения</translation>
+	<translation id="navс8"> </translation>
+	<translation id="navс9"> </translation>
 	
 	
 </translations>
