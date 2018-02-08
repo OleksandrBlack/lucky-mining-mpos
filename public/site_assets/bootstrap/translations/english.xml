@@ -153,7 +153,23 @@
 	<translation id="navс5">Sign Up</translation>
 	<translation id="navс6">Contact</translation>
 	<translation id="navс7">Terms and Conditions</translation>
-	<translation id="navс8"> </translation>
-	<translation id="navс9"> </translation>
+	<translation id="abouta1">API Reference</translation>
+	<translation id="abouta2">official documentation</translation>
+	<translation id="abouta3">to learn about the API featured in</translation>
+	<translation id="abouta4">Web Chat</translation>
+	<translation id="abouta5">Moot Forum</translation>
+	<translation id="abouta6">Frequently Asked Questions</translation>
+	<translation id="abouta7">When will I get paid?</translation>
+	<translation id="abouta8">This pool uses the following payout system.</translation>
+	<translation id="abouta9">Proportional (Prop)</translation>
+	<translation id="aboutb1">- The block reward is distributed among miners in proportion to the number of shares they submitted in a round. The expected reward per share depends on the number of shares already submitted in the round.</translation>
+	<translation id="aboutb2">Pay Per Last N Shares (PPLNS)</translation>
+	<translation id="aboutb3">- Block rewards are distributed among the last shares, disregarding round boundaries. In the accurate implementation, the number of shares is determined so that their total will be a specified quantity of score (where the score of a share is the inverse of the difficulty). Most pools use a naive implementation based on a fixed number of shares or a fixed multiple of the difficulty. The share-variance can be reduced at the cost of increased maturity time, but there is no way to decrease the long-term pool-variance.</translation>
+	<translation id="aboutb4">Pay Per Share (PPS)</translation>
+	<translation id="aboutb5">- Each share receives a fixed reward known in advance. This is the ultimate low-variance, low-maturity simple method, but has the highest risk for the operator, and hence lower expected returns than other methods and risk of collapse if not managed properly.</translation>
+	<translation id="aboutb6">What is estimated payout?</translation>
+	<translation id="aboutb7">Estimated payout is your estimated payout if a block is found at that time. This is an estimate according to your amount of shares submitted for the round(s).</translation>
+	<translation id="aboutb8">What is pool-variance?</translation>
+	<translation id="aboutb9">This is the variance caused by the pool being too small. Using a method with high pool-variance does no harm to large pools.</translation>
 	
 </translations>
