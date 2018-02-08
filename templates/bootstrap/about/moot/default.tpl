@@ -2,7 +2,7 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-comments-o fa-fw"></i> Moot Forum
+        <i class="fa fa-comments-o fa-fw"></i> <span class="abouta5">Moot Forum</span>
       </div>
       <div class="panel-body">
         <table class="table table-bordered">
