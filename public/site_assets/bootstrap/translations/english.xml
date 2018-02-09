@@ -188,7 +188,7 @@
 	<translation id="nodonation">no Donation</translation>
 	<translation id="donation">Donation</translation>
 	<translation id="ormoredonation">or more Donation</translation>
-  <translation id="contributorshares">Contributor Shares</translation>
+	<translation id="contributorshares">Contributor Shares</translation>
 	<translation id="contributorhashrates">Contributor Hashrates</translation>
 	<translation id="rank">Rank</translation>
 	<translation id="donor">Donor</translation>
@@ -213,4 +213,14 @@
 	<translation id="earningsb6">Last Week</translation>
 	<translation id="earningsb7">Last Month</translation>
 	<translation id="earningsb8">Last Year</translation>
+	<translation id="edita1">Cash Out</translation>
+	<translation id="edita2">Please note: a</translation>
+	<translation id="edita3">transaction will apply when processing "On-Demand" manual payments</translation>
+	<translation id="edita4">This</translation>
+	<translation id="edita5">manual payment transaction fee is a network fee and goes back into the network not the pool.</translation>
+	<translation id="edita6">Minimum Cashout:</translation>
+	<translation id="edita7">Account Balance</translation>
+	<translation id="edita8">Payout to</translation>
+	<translation id="edita9">4 Digit PIN</translation>
+
 </translations>
