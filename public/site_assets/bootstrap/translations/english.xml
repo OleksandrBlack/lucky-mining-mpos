@@ -185,4 +185,8 @@
 	<translation id="aboutd3">This Pool is running</translation>
 	<translation id="aboutd4">project code. This frontend was created by</translation>
 	<translation id="aboutd5">The operation of the pool is soley at the hand of your trusted pool operator.</translation>
+	<translation id="nodonation">no Donation</translation>
+	<translation id="donation">Donation</translation>
+	<translation id="ormoredonation">or more Donation</translation>
+
 </translations>

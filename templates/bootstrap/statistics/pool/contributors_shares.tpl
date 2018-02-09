@@ -37,9 +37,9 @@
       </div>
       <div class="panel-footer">
           <h6>
-          <i class="fa fa-ban fa-fw"></i>no Donation
-          <i class="fa fa-star-o fa-fw"></i> 0&#37;&#45;2&#37; Donation 
-          <i class="fa fa-trophy fa-fw"></i> 2&#37; or more Donation
+          <i class="fa fa-ban fa-fw"></i><span class="nodonation">no donation</span>
+          <i class="fa fa-star-o fa-fw"></i> 0&#37;&#45;2&#37; <span class="donation">donation</span>
+          <i class="fa fa-trophy fa-fw"></i> 2&#37; <span class="ormoredonation">or more Donation</span>
           </h6>
       </div>
     </div>
