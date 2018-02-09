@@ -3,14 +3,14 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-money fa-fw"></i> Всего {$GLOBAL.config.currency} зачисленно
+        <i class="fa fa-money fa-fw"></i> <span class="earningsa1">Total</span> {$GLOBAL.config.currency} <span class="earningsa2">Earning Reports</span>
       </div>
       <div class="panel-body">
         <div class="row">
           <div class="col-lg-12">
             <div class="panel panel-info">
               <div class="panel-heading">
-                <i class="fa fa-credit-card fa-fw"></i> Сумма
+                <i class="fa fa-credit-card fa-fw"></i> <span class="earningsa3">Summary</span>
               </div>
               <div class="panel-body">
                 <div class="table-responsive">
@@ -25,7 +25,7 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td class="col-xs-1">За все время</td>
+                        <td class="col-xs-1"><span class="earningsa4">All Time</span></td>
                         {foreach $SUMMARY as $type=>$total}
                         <td class="right">{$total|number_format:"8"}</td>
                         {/foreach}
@@ -42,7 +42,7 @@
           <div class="col-lg-12">
             <div class="panel panel-info">
               <div class="panel-heading">
-                <i class="fa fa-clock-o fa-fw"></i> Сортировка по времени
+                <i class="fa fa-clock-o fa-fw"></i> <span class="earningsa5">Sorted by Time</span>
               </div>
               <div class="panel-body">
                 <div class="table-responsive">
@@ -50,20 +50,20 @@
                     <thead>
                       <tr>
                         <th class="col-xs-1"></th>
-                        <th>Кредитов</th>
-                        <th>Бонусы</th>
-                        <th>Debit AP</th>
-                        <th>Debit MP</th>
-                        <th>Donation</th>
+                        <th><span class="earningsa6">Credit</span></th>
+                        <th><span class="earningsa7">Bonus</span></th>
+                        <th><span class="earningsa8">Debit AP</span></th>
+                        <th><span class="earningsa9">Debit MP</span></th>
+                        <th><span class="earningsb1">Donation</span></th>
                         {if $GLOBAL.fees > 0}
-                        <th>Fee</th>
+                        <th><span class="earningsb2">Fee</span></th>
                         {/if}
-                        <th>TXFee</th>
+                        <th><span class="earningsb3"> </span>TXFee</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td class="col-xs-1">Last Hour</th>
+                        <td class="col-xs-1"><span class="earningsb4">Last Hour</span></th>
                         <td>{$BYTIME.1HourCredit|number_format:"8"}</td>
                         <td>{$BYTIME.1HourBonus|number_format:"8"}</td>
                         <td>{$BYTIME.1HourDebitAP|number_format:"8"}</td>
@@ -75,7 +75,7 @@
                         <td>{$BYTIME.1HourTXFee|number_format:"8"}</td>
                       </tr>
                       <tr>
-                        <td class="col-xs-1">Last Day</th>
+                        <td class="col-xs-1"><span class="earningsb5">Last Day</span></th>
                         <td>{$BYTIME.24HourCredit|number_format:"8"}</td>
                         <td>{$BYTIME.24HourBonus|number_format:"8"}</td>
                         <td>{$BYTIME.24HourDebitAP|number_format:"8"}</td>
@@ -87,7 +87,7 @@
                         <td>{$BYTIME.24HourTXFee|number_format:"8"}</td>
                       </tr>
                       <tr>
-                        <td class="col-xs-1">Last Week</th>
+                        <td class="col-xs-1"><span class="earningsb6">Last Week</span></th>
                         <td>{$BYTIME.1WeekCredit|number_format:"8"}</td>
                         <td>{$BYTIME.1WeekBonus|number_format:"8"}</td>
                         <td>{$BYTIME.1WeekDebitAP|number_format:"8"}</td>
@@ -99,7 +99,7 @@
                         <td>{$BYTIME.1WeekTXFee|number_format:"8"}</td>
                       </tr>
                       <tr>
-                        <td class="col-xs-1">Last Month</th>
+                        <td class="col-xs-1"><span class="earningsb7">Last Month</span></th>
                         <td>{$BYTIME.1MonthCredit|number_format:"8"}</td>
                         <td>{$BYTIME.1MonthBonus|number_format:"8"}</td>
                         <td>{$BYTIME.1MonthDebitAP|number_format:"8"}</td>
@@ -111,7 +111,7 @@
                         <td>{$BYTIME.1MonthTXFee|number_format:"8"}</td>
                       </tr>
                       <tr>
-                        <td class="col-xs-1">Last Year</th>
+                        <td class="col-xs-1"><span class="earningsb8">Last Year</span></th>
                         <td>{$BYTIME.1YearCredit|number_format:"8"}</td>
                         <td>{$BYTIME.1YearBonus|number_format:"8"}</td>
                         <td>{$BYTIME.1YearDebitAP|number_format:"8"}</td>
