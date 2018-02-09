@@ -171,5 +171,8 @@
 	<translation id="aboutb7">Estimated payout is your estimated payout if a block is found at that time. This is an estimate according to your amount of shares submitted for the round(s).</translation>
 	<translation id="aboutb8">What is pool-variance?</translation>
 	<translation id="aboutb9">This is the variance caused by the pool being too small. Using a method with high pool-variance does no harm to large pools.</translation>
+	<translation id="nodonation">no Donation</translation>
+	<translation id="donation">Donation</translation>
+	<translation id="ormoredonation">or more Donation</translation>
 	
 </translations>
