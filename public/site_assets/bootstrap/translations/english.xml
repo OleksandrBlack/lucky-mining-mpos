@@ -188,6 +188,14 @@
 	<translation id="nodonation">no Donation</translation>
 	<translation id="donation">Donation</translation>
 	<translation id="ormoredonation">or more Donation</translation>
+  <translation id="contributorshares">Contributor Shares</translation>
+	<translation id="contributorhashrates">Contributor Hashrates</translation>
+	<translation id="rank">Rank</translation>
+	<translation id="donor">Donor</translation>
+	<translation id="username">User Name</translation>
+	<translation id="shares">Shares</translation>
+	<translation id="generalstatistics">General Statistics</translation>
+	<translation id="day">Day</translation>
 	<translation id="earningsa1">Total</translation>
 	<translation id="earningsa2">Earning Reports</translation>
 	<translation id="earningsa3">Summary</translation>

@@ -157,7 +157,15 @@
 	<translation id="navс9"> </translation>
 	<translation id="nodonation">без пожертв</translation>
 	<translation id="donation">пожертв</translation>
-    <translation id="ormoredonation">и более пожертв</translation>
+	<translation id="ormoredonation">и более пожертв</translation>
+	<translation id="contributorshares">Шары участников</translation>
+	<translation id="rank">Место</translation>
+	<translation id="donor">Пожертвы</translation>
+	<translation id="username">Имя пользователя</translation>
+	<translation id="shares">Шар</translation>
+	<translation id="generalstatistics">Общая информация</translation>
+	<translation id="contributorhashrates">Хешрейт участников</translation>
+	<translation id="day">День</translation>
 	
 	
 </translations>
