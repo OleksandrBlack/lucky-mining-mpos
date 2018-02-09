@@ -158,5 +158,13 @@
 	<translation id="nodonation">без пожертвувань</translation>
 	<translation id="donation">пожертвувань</translation>
 	<translation id="ormoredonation">та більше пожертвувань</translation>
+	<translation id="contributorshares">Шари учасників</translation>
+	<translation id="rank">Місце</translation>
+	<translation id="donor">Пожертви</translation>
+	<translation id="username">Ім'я користувача</translation>
+	<translation id="shares">Шар</translation>
+	<translation id="generalstatistics">Загальна інформація</translation>
+	<translation id="contributorhashrates">Хешрейт учасників</translation>
+	<translation id="day">День</translation>
 	
 </translations>

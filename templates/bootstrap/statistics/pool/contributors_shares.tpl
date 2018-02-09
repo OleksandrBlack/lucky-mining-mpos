@@ -1,16 +1,16 @@
   <div class="col-lg-6">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-tachometer fa-fw"></i> Хешрейт участников
+        <i class="fa fa-tachometer fa-fw"></i> <span class="contributorshares">Contributor Shares</span>
       </div>
       <div class="panel-body no-padding table-responsive">
         <table class="table table-striped table-bordered table-hover">
           <thead>
             <tr>
-              <th>Место</th>
-              <th>Donor</th>
-              <th>Имя пользователя</th>
-              <th class="text-right">Shares</th>
+              <th class="rank">Rank</th>
+              <th class="donor">Donor</th>
+              <th class="username">User Name</th>
+              <th class="text-right shares">Shares</th>
             </tr>
           </thead>
           <tbody>

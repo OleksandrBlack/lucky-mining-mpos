@@ -1,19 +1,19 @@
   <div class="col-lg-6">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-tachometer fa-fw"></i> Хешрейт участников
+        <i class="fa fa-tachometer fa-fw"></i><span class="contributorhashrates">Contributor Hashrates</span>
       </div>
       <div class="panel-body no-padding table-responsive">
         <table class="table table-striped table-bordered table-hover">
           <thead>
             <tr>
-              <th>Место</th>
-              <th>Donor</th>
-              <th>Имя пользователя</th>
+              <th class="rank">Rank</th>
+              <th class="donor">Donor</th>
+              <th class="username">User Name</th>
               <th class="text-right">{$GLOBAL.hashunits.personal}</th>
-              <th class="text-right">{$GLOBAL.config.currency}/День</th>
+              <th class="text-right">{$GLOBAL.config.currency}/<span class="day">Day</span></th>
               {if $GLOBAL.config.price.enabled}
-              {if $GLOBAL.config.price.currency}<th class="text-right">{$GLOBAL.config.price.currency}/День</th>{/if}
+              {if $GLOBAL.config.price.currency}<th class="text-right">{$GLOBAL.config.price.currency}/<span class="day">Day</span></th>{/if}
                {/if}
             </tr>
           </thead>
