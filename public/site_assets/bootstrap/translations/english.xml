@@ -188,7 +188,7 @@
 	<translation id="nodonation">no Donation</translation>
 	<translation id="donation">Donation</translation>
 	<translation id="ormoredonation">or more Donation</translation>
-	<translation id="contributorshares">Contributor Shares</translation>
+  <translation id="contributorshares">Contributor Shares</translation>
 	<translation id="contributorhashrates">Contributor Hashrates</translation>
 	<translation id="rank">Rank</translation>
 	<translation id="donor">Donor</translation>
@@ -196,5 +196,21 @@
 	<translation id="shares">Shares</translation>
 	<translation id="generalstatistics">General Statistics</translation>
 	<translation id="day">Day</translation>
-
+	<translation id="earningsa1">Total</translation>
+	<translation id="earningsa2">Earning Reports</translation>
+	<translation id="earningsa3">Summary</translation>
+	<translation id="earningsa4">All Time</translation>
+	<translation id="earningsa5">Sorted by Time</translation>
+	<translation id="earningsa6">Credit</translation>
+	<translation id="earningsa7">Bonus</translation>
+	<translation id="earningsa8">Debit AP</translation>
+	<translation id="earningsa9">Debit MP</translation>
+	<translation id="earningsb1">Donation</translation>
+	<translation id="earningsb2">Fee</translation>
+	<translation id="earningsb3">TXFee</translation>
+	<translation id="earningsb4">Last Hour</translation>
+	<translation id="earningsb5">Last Day</translation>
+	<translation id="earningsb6">Last Week</translation>
+	<translation id="earningsb7">Last Month</translation>
+	<translation id="earningsb8">Last Year</translation>
 </translations>
