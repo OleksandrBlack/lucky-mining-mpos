@@ -244,6 +244,12 @@
 	<translation id="editd2">4 Digit PIN</translation>
 	<translation id="editd3">Reset PIN</translation>
 	<translation id="editd4">Current Password</translation>
-
+	<translation id="invita1">Invitation</translation>
+	<translation id="invita2">E-Mail</translation>
+	<translation id="invita3">Message</translation>
+	<translation id="invita4">Past Invitations</translation>
+	<translation id="invita5">E-Mail</translation>
+	<translation id="invita6">Sent</translation>
+	<translation id="invita7">Activated</translation>
 
 </translations>
