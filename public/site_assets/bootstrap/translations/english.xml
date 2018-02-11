@@ -251,5 +251,21 @@
 	<translation id="invita5">E-Mail</translation>
 	<translation id="invita6">Sent</translation>
 	<translation id="invita7">Activated</translation>
+	<translation id="notifia1">Push Notification Settings</translation>
+	<translation id="notifia2">Push Notifications</translation>
+	<translation id="notifia3">Notification Settings</translation>
+	<translation id="notifia4">Event</translation>
+	<translation id="notifia5">Email</translation>
+	<translation id="notifia6">Push</translation>
+	<translation id="notifia7">Idle Worker</translation>
+	<translation id="notifia8">New Blocks</translation>
+	<translation id="notifia9">Payout</translation>
+	<translation id="notifib1">Successful Login</translation>
+	<translation id="notifib2">Pool Newsletter</translation>
+	<translation id="notifib3">Notification History</translation>
+	<translation id="notifib4">ID</translation>
+	<translation id="notifib5">Time</translation>
+	<translation id="notifib6">Type</translation>
+	<translation id="notifib7">Active</translation>
 
 </translations>
