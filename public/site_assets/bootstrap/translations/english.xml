@@ -222,5 +222,28 @@
 	<translation id="edita7">Account Balance</translation>
 	<translation id="edita8">Payout to</translation>
 	<translation id="edita9">4 Digit PIN</translation>
+	<translation id="editb1">Account Details</translation>
+	<translation id="editb2">Username</translation>
+	<translation id="editb3">User Id</translation>
+	<translation id="editb4">API Key</translation>
+	<translation id="editb5">E-Mail</translation>
+	<translation id="editb6">Timezone</translation>
+	<translation id="editb7">Payment Address</translation>
+	<translation id="editb8">Donation Percentage</translation>
+	<translation id="editb9">Donation amount in percent</translation>
+	<translation id="editc1">Automatic Payout Threshold</translation>
+	<translation id="editc2">Anonymous Account</translation>
+	<translation id="editc3">Hide username on website from others. Admins can still get your user information.</translation>
+	<translation id="editc4">4 Digit PIN</translation>
+	<translation id="editc5">The 4 digit PIN you chose when registering</translation>
+	<translation id="editc6">Change Password</translation>
+	<translation id="editc7">Note: You will be redirected to login on successful completion of a password change</translation>
+	<translation id="editc8">Current Password</translation>
+	<translation id="editc9">New Password</translation>
+	<translation id="editd1">Repeat New Password</translation>
+	<translation id="editd2">4 Digit PIN</translation>
+	<translation id="editd3">Reset PIN</translation>
+	<translation id="editd4">Current Password</translation>
+
 
 </translations>
