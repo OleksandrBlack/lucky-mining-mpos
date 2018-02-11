@@ -269,4 +269,21 @@
 	<translation id="notifib7">Active</translation>
 	<translation id="qra1">API String</translation>
 	<translation id="qra2">This code will allow you to import the full API string into your mobile application.</translation>
+	<translation id="transa1">Transaction Filter</translation>
+	<translation id="transa2">Transaction History</translation>
+	<translation id="transa3">ID</translation>
+	<translation id="transa4">Date</translation>
+	<translation id="transa5">TX Type</translation>
+	<translation id="transa6">Status</translation>
+	<translation id="transa7">Payment Address</translation>
+	<translation id="transa8">TX #</translation>
+	<translation id="transa9">Block #</translation>
+	<translation id="transb1">Amount</translation>
+	<translation id="transb2">Confirmed</translation>
+	<translation id="transb3">Orphaned</translation>
+	<translation id="transb4">Unconfirmed</translation>
+	<translation id="transb5">Auto Threshold Payment</translation>
+	<translation id="transb6">Manual Payment</translation>
+	<translation id="transb7">Donation</translation>
+	<translation id="transb8">Pool Fees</translation>
 </translations>
