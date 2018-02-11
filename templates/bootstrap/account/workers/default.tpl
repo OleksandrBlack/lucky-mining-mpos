@@ -6,20 +6,20 @@
     <input type="hidden" name="ctoken" value="{$CTOKEN|escape|default:""}">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-plus-square-o fa-fw"></i> Добавить Воркер
+        <i class="fa fa-plus-square-o fa-fw"></i> <span class="worka1">Add New Worker</span>
       </div>
         <div class="panel-body">
           <div class="form-group">
-            <label>Имя Воркера</label>
+            <label><span class="worka2">Worker Name</span></label>
             <input class="form-control" type="text" name="username" value="имя воркера" size="10" maxlength="20" required>
           </div>
           <div class="form-group">
-            <label>Пароль Воркера</label>
+            <label><span class="worka3">Worker Password</span></label>
             <input class="form-control" type="text" name="password" value="x" size="10" maxlength="20" required>
           </div>
         </div>
       <div class="panel-footer">
-        <input type="submit" value="Добавить Воркер" class="btn btn-success btn-sm">
+        <input type="submit" value="<span class="worka4">Add New Worker</span>" class="btn btn-success btn-sm">
       </div>
     </div>
   </form>
@@ -27,7 +27,7 @@
   <div class="col-lg-9">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-gears fa-fw"></i> Настройки Воркера
+        <i class="fa fa-gears fa-fw"></i> <span class="worka5">Worker Configuration</span>
       </div>
       <form action="{$smarty.server.SCRIPT_NAME}" method="post" role="form">
         <input type="hidden" name="page" value="{$smarty.request.page|escape}">
@@ -39,13 +39,13 @@
           <table class="table">
              <thead>
                 <tr>
-                  <th class="smallwidth">Имя Воркера</th>
-                  <th class="smallwidth">Пароль Воркера</th>
-                  <th class="text-center">Активный</th>
-                  {if $GLOBAL.config.disable_notifications != 1 && $DISABLE_IDLEWORKERNOTIFICATIONS != 1}<th class="text-center">Мониторинг</th>{/if}
+                  <th class="smallwidth"><span class="worka6">Worker Login</span></th>
+                  <th class="smallwidth"><span class="worka7">Worker Password</span></th>
+                  <th class="text-center"><span class="worka8">Active</span></th>
+                  {if $GLOBAL.config.disable_notifications != 1 && $DISABLE_IDLEWORKERNOTIFICATIONS != 1}<th class="text-center"><span class="worka9">Monitor</span></th>{/if}
                   <th class="text-right">{$GLOBAL.hashunits.personal}</th>
-                  <th class="text-right">Сложность</th>
-                  <th class="text-center">Действие</th>
+                  <th class="text-right"><span class="workb1">Difficulty</span></th>
+                  <th class="text-center"><span class="workb2">Action</span></th>
                 </tr>
              </thead>
              <tbody>
@@ -77,7 +77,7 @@
             </table>
           </div>
           <div class="panel-footer">
-            <input type="submit" class="btn btn-success btn-sm" value="Обновить Воркеры">
+            <input type="submit" class="btn btn-success btn-sm" value="<span class="workb3">Update Workers</span>">
           </div>
         </div>
       </form>
