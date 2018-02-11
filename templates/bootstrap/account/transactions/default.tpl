@@ -5,7 +5,7 @@
     <input type="hidden" name="ctoken" value="{$CTOKEN|escape|default:""}" />
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-search fa-fw"></i> Фильтр транзакций
+        <i class="fa fa-search fa-fw"></i> <span class="transa1">Transaction Filter</span>
       </div>
       <div class="panel-body">
             <ul class="pager">
@@ -34,21 +34,21 @@
   <div class="col-lg-9">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-clock-o fa-fw"></i> История транзакций
+        <i class="fa fa-clock-o fa-fw"></i> <span class="transa2">Transaction History</span>
       </div>
       <div class="panel-body no-padding">
         <div class="table-responsive">
           <table class="table table-striped table-bordered table-condensed">
             <thead>
               <tr>
-                <th class="h6">ID</th>
-                <th class="h6">Дата</th>
-                <th class="h6">TX Type</th>
-                <th class="h6">Статус</th>
-                <th class="h6">Адресс выплаты</th>
-                <th class="h6">TX #</th>
-                <th class="h6">Блок #</th>
-                <th class="h6">Зачислено</th>
+                <th class="h6"><span class="transa3">ID</span></th>
+                <th class="h6"><span class="transa4">Date</span></th>
+                <th class="h6"><span class="transa5">TX Type</span></th>
+                <th class="h6"><span class="transa6">Status</span></th>
+                <th class="h6"><span class="transa7">Payment Address</span></th>
+                <th class="h6"><span class="transa8">TX #</span></th>
+                <th class="h6"><span class="transa9">Block #</span></th>
+                <th class="h6"><span class="transb1">Amount</span></th>
               </tr>
             </thead>
             <tbody>
@@ -66,11 +66,11 @@
                   $TRANSACTIONS[transaction].type == 'TXFee' OR
                   $TRANSACTIONS[transaction].confirmations >= $GLOBAL.confirmations
                   }
-                  <span class="label label-success">Подтверждено</span>
+                  <span class="label label-success"><span class="transb2">Confirmed</span></span>
                   {else if $TRANSACTIONS[transaction].confirmations == -1}
-                  <span class="label label-danger">Осиротевший</span>
+                  <span class="label label-danger"><span class="transb3">Orphaned</span></span>
                   {else}
-                  <span class="label label-warning">Не подтверждено</span>
+                  <span class="label label-warning"><span class="transb4">Unconfirmed</span></span>
                   {/if}
                 </td>
                 <td><a href="#" onClick="alert('{$TRANSACTIONS[transaction].coin_address|escape}')">{$TRANSACTIONS[transaction].coin_address|truncate:20:"...":true:true}</a></td>
@@ -88,7 +88,7 @@
         </div>
       </div>
       <div class="panel-footer">
-        <h6><b>Debit_AP</b> = Auto Threshold Payment, <b>Debit_MP</b> = Manual Payment, <b>Donation</b> = Donation, <b>Fee</b> = Pool Fees (if applicable)</h6>
+        <h6><b>Debit_AP</b> = <span class="transb5">Auto Threshold Payment</span>, <b>Debit_MP</b> = <span class="transb6">Manual Payment</span>, <b>Donation</b> = <span class="transb7">Donation</span>, <b>Fee</b> = <span class="transb8">Pool Fees</span> (if applicable)</h6>
       </div>
     </div>
   </div>
