@@ -286,4 +286,17 @@
 	<translation id="transb6">Manual Payment</translation>
 	<translation id="transb7">Donation</translation>
 	<translation id="transb8">Pool Fees</translation>
+	<translation id="worka1">Add New Worker</translation>
+	<translation id="worka2">Worker Name</translation>
+	<translation id="worka3">Worker Password</translation>
+	<translation id="worka4">Add New Worker</translation>
+	<translation id="worka5">Worker Configuration</translation>
+	<translation id="worka6">Worker Login</translation>
+	<translation id="worka7">Worker Password</translation>
+	<translation id="worka8">Active</translation>
+	<translation id="worka9">Monitor</translation>
+	<translation id="worka1">Difficulty</translation>
+	<translation id="workb2">Action</translation>
+	<translation id="workb3">Update Workers</translation>
+
 </translations>
