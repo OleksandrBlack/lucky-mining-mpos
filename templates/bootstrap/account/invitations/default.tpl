@@ -2,7 +2,7 @@
   <form class="col-lg-4" action="{$smarty.server.SCRIPT_NAME}" method="POST" role="form">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-envelope fa-fw"></i> Приглашения
+        <i class="fa fa-envelope fa-fw"></i> <span class="invita1">Invitation</span>
       </div>
       <div class="panel-body">
         <input type="hidden" name="page" value="{$smarty.request.page|escape}">
@@ -10,11 +10,11 @@
         <input type="hidden" name="do" value="sendInvitation">
         <input type="hidden" name="ctoken" value="{$CTOKEN|escape|default:""}" />
         <div class="form-group">
-          <label>E-Mail</label>
+          <label><span class="invita2">E-Mail</span></label>
           <input class="form-control" type="text" name="data[email]" value="{$smarty.request.data.email|escape|default:""}" size="30" />
         </div>
         <div class="form-group">
-          <label>Сообщения</label>
+          <label><span class="invita3">Message</span></label>
           <textarea class="form-control" name="data[message]" rows="5">{$smarty.request.data.message|escape|default:"Примите мое приглашение на этот потрясающий пул."}</textarea>
         </div>
       </div>
@@ -27,7 +27,7 @@
   <div class="col-lg-8">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-mail-reply fa-fw"></i> Предыдущие приглашения
+        <i class="fa fa-mail-reply fa-fw"></i> <span class="invita4">Past Invitations</span>
       </div>
       <div class="panel-body">
       
@@ -35,9 +35,9 @@
           <table class="table table-hover">
             <thead style="font-size:13px;">
               <tr>
-                <th>E-Mail</th>
-                <th>Sent</th>
-                <th>Activated</th>
+                <th><span class="invita5">E-Mail</span></th>
+                <th><span class="invita6">Sent</span></th>
+                <th><span class="invita7">Activated</span></th>
               </tr>
             </thead>
             <tbody>
