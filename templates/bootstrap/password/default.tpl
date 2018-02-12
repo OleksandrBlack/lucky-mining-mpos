@@ -5,11 +5,11 @@
     <input type="hidden" name="ctoken" value="{$CTOKEN|escape|default:""}" />
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">Password reset</h3>
+        <h3 class="panel-title"><span class="passa1">Password reset</span></h3>
       </div>
       <div class="panel-body">
         <fieldset>
-         <p>If you have an email set for your account, enter your username to get your password reset</p>
+         <p><span class="passa2">If you have an email set for your account, enter your username to get your password reset</span></p>
           <div class="input-group margin-bottom-sm">
             <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
             <input class="form-control" placeholder="Username or E-mail" name="username" type="text" maxlength="100" autofocus required>
