@@ -11,14 +11,14 @@
               <tr>
                 <th class="text-center"><span class="blocksc8">Block</span></th>
                 <th class="text-center"><span class="blocksc9">Validity</span></th>
-                <th class="text-left"><span class="blocksd1">Finder</span></th>
-                <th class="text-right"><span class="blocksd2">Time</span></th>
-                <th class="text-right"><span class="blocksd3">Difficulty</span></th>
-                <th class="text-right"><span class="blocksd4">Amount</span></th>
-                <th class="text-right"><span class="blocksd5">Expected Shares</span></th>
-                {if $GLOBAL.config.payout_system == 'pplns'}<th class="text-right"><span class="blocksd6">PPLNS Shares</span></th>{/if}
-                <th class="text-right"><span class="blocksd7">Actual Shares</span></th>
-                <th  class="text-right"><span class="blocksd8">Percentage</span></th>
+                <th class="text-center"><span class="blocksd1">Finder</span></th>
+                <th class="text-center"><span class="blocksd2">Time</span></th>
+                <th class="text-center"><span class="blocksd3">Difficulty</span></th>
+                <th class="text-center"><span class="blocksd4">Amount</span></th>
+                <th class="text-center"><span class="blocksd5">Expected Shares</span></th>
+                {if $GLOBAL.config.payout_system == 'pplns'}<th class="text-center"><span class="blocksd6">PPLNS Shares</span></th>{/if}
+                <th class="text-center"><span class="blocksd7">Actual Shares</span></th>
+                <th class="text-center"><span class="blocksd8">Percentage</span></th>
               </tr>
             </thead>
             <tbody>
