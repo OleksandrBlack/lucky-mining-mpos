@@ -42,9 +42,9 @@
               <tr class="even">
                 <td><span class="roundb1">Confirmations</span></td>
                 <td>{if $BLOCKDETAILS.confirmations >= $GLOBAL.confirmations}
-                  <font color="green">Confirmed</font>
-                {else if $BLOCKDETAILS.confirmations == -1}
-                  <font color="red">Orphan</font>
+                  <font color="green"><span class="roundb2">Confirmed</span></font>
+                  {else if $BLOCKDETAILS.confirmations == -1}
+                   <font color="red"><span class="roundb3">Orphan</span></font>
                 {else if $BLOCKDETAILS.confirmations == 0}0
                 {else}{($GLOBAL.confirmations - $BLOCKDETAILS.confirmations)|default:"0"} left{/if}</td>
                 <td><span class="roundb4">Block Average</span></td>
