@@ -2,7 +2,7 @@
       <div class="col-lg-12">
         <div class="panel panel-info">
           <div class="panel-heading">
-            <h5><i class="fa fa-info-circle fa-fw"></i> Последние новости</h5>
+            <h5><i class="fa fa-info-circle fa-fw"></i> <span class="home">latest News</span></h5>
           </div>
           <div class="panel-body">
             <div class="panel-group" id="accordion">
