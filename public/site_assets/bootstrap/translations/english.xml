@@ -327,4 +327,6 @@
 	<translation id="conta8">Your Message</translation>
 	<translation id="conta9">Send Email</translation>
 	<translation id="contb1">Reset Values</translation>
+	<translation id="ratelimit1">Request rate limit exceeded</translation>
+	<translation id="ratelimit2">You're sending too many requests too fast!</translation>
 </translations>
