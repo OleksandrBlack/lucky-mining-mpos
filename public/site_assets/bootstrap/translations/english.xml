@@ -317,5 +317,14 @@
 	<translation id="worka1">Difficulty</translation>
 	<translation id="workb2">Action</translation>
 	<translation id="workb3">Update Workers</translation>
-
+	<translation id="conta1">Contact Us</translation>
+	<translation id="conta2">Your Name</translation>
+	<translation id="conta3">Please type your name</translation>
+ 	<translation id="conta4">Your Email Address</translation>
+	<translation id="conta5">Please type your email</translation>
+	<translation id="conta6">Your Subject</translation>
+	<translation id="conta7">Please type your subject</translation>
+	<translation id="conta8">Your Message</translation>
+	<translation id="conta9">Send Email</translation>
+	<translation id="contb1">Reset Values</translation>
 </translations>
