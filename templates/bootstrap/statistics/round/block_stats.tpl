@@ -2,7 +2,7 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-bar-chart fa-fw"></i>Статистика Блоков
+        <i class="fa fa-bar-chart fa-fw"></i> <span class="worka1">Block Statistics</span>
       </div>
       <div class="table-responsive">
         <table class="table table-striped table-bordered table-hover">
