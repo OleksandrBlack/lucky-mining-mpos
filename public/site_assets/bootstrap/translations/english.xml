@@ -399,6 +399,16 @@
 	<translation id="blocksd7">Actual Shares</translation>
 	<translation id="blocksd8">Percentage</translation>
 	<translation id="blocksd9">Totals</translation>
+	<translation id="donorsa1">Pool Donors</translation>
+	<translation id="donorsa2">Total</translation>
+	<translation id="donorsa3">No confirmed donations yet, please be patient!</translation>
+	<translation id="graphsa1">Average Hashrate past 24h</translation>
+	<translation id="graphsa2">Your average hashrate per hour.</translation>
+	<translation id="graphsa3">Average Workers past 24h</translation>
+	<translation id="graphsa4">Your average active workers per hour.</translation>
+	<translation id="graphsa5">Average Sharerate past 24h</translation>
+	<translation id="graphsa6">Your share rate per hour.</translation>
+
 
 	
 
