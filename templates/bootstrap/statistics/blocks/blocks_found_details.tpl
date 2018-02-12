@@ -2,23 +2,23 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-tasks fa-fw"></i> Последный номер {$BLOCKLIMIT} найденного блока
+        <i class="fa fa-tasks fa-fw"></i> <span class="blocksc6">Last</span> {$BLOCKLIMIT} <span class="blocksc7">Blocks Found</span>
       </div>
       <div class="panel-body no-padding">
         <div class="table-responsive">
           <table class="table table-striped table-bordered table-hover">
             <thead>
               <tr>
-                <th class="text-center">Блок</th>
-                <th class="text-center">Подтверждение</th>
-                <th class="text-left">Нашедший</th>
-                <th class="text-right">Время</th>
-                <th class="text-right">Сложность</th>
-                <th class="text-right">Зачисленно</th>
-                <th class="text-right">Expected Shares</th>
-                {if $GLOBAL.config.payout_system == 'pplns'}<th class="text-right">PPLNS Shares</th>{/if}
-                <th class="text-right">Актуальные Шары</th>
-                <th  class="text-right">Процент</th>
+                <th class="text-center"><span class="blocksc8">Block</span></th>
+                <th class="text-center"><span class="blocksc9">Validity</span></th>
+                <th class="text-left"><span class="blocksd1">Finder</span></th>
+                <th class="text-right"><span class="blocksd2">Time</span></th>
+                <th class="text-right"><span class="blocksd3">Difficulty</span></th>
+                <th class="text-right"><span class="blocksd4">Amount</span></th>
+                <th class="text-right"><span class="blocksd5">Expected Shares</span></th>
+                {if $GLOBAL.config.payout_system == 'pplns'}<th class="text-right"><span class="blocksd6">PPLNS Shares</span></th>{/if}
+                <th class="text-right"><span class="blocksd7">Actual Shares</span></th>
+                <th  class="text-right"><span class="blocksd8">Percentage</span></th>
               </tr>
             </thead>
             <tbody>
@@ -64,7 +64,7 @@
               </tr>
               {/section}
               <tr>
-                <td colspan="6"><b>Totals</b></td>
+                <td colspan="6"><b><span class="blocksd9">Totals</span></b></td>
                 <td class="text-right">{$totalexpectedshares|number_format:$GLOBAL.config.sharediffprecision}</td>
                 {if $GLOBAL.config.payout_system == 'pplns'}
                 <td class="text-right">{$pplnsshares|number_format:$GLOBAL.config.sharediffprecision}</td>
