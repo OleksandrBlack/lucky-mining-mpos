@@ -357,6 +357,41 @@
 	<translation id="registerb2">I Accept The</translation>
 	<translation id="registerb3">Terms and Conditions</translation>
 	<translation id="registerb4">Close</translation>
+	<translation id="bfinda1">Blocks found by own Workers</translation>
+	<translation id="bfinda2">Rank</translation>
+	<translation id="bfinda3">Worker</translation>
+	<translation id="bfinda4">Blocks</translation>
+	<translation id="bfinda5">Coins Generated</translation>
+	<translation id="bfinda6">Top 25 Blockfinder</translation>
+	<translation id="blocksa1">Block Overview</translation>
+	<translation id="blocksa2">Gen. Est.</translation>
+	<translation id="blocksa3">Found</translation>
+	<translation id="blocksa4">Valid</translation>
+	<translation id="blocksa5">Orphan</translation>
+	<translation id="blocksa6">Orphan %</translation>
+	<translation id="blocksa7">Avg. Diff</translation>
+	<translation id="blocksa8">Shares Est.</translation>
+	<translation id="blocksa9">Shares</translation>
+	<translation id="blocksb1">Percentage</translation>
+	<translation id="blocksb2">Amount</translation>
+	<translation id="blocksb3">Rate Est.</translation>
+	<translation id="blocksb4">All Time</translation>
+	<translation id="blocksb5">Last Hour</translation>
+	<translation id="blocksb6">Last 24 Hours</translation>
+	<translation id="blocksb7">Last 7 Days</translation>
+	<translation id="blocksb8">Last 4 Weeks</translation>
+	<translation id="blocksb9">The Past 12 Months</translation>
+	<translation id="blocksc1">Block Shares</translation>
+	<translation id="blocksc2">Expected Shares</translation>
+	<translation id="blocksc3"> </translation>
+	<translation id="blocksc4"> </translation>
+	<translation id="blocksc5"> </translation>
+	<translation id="blocksc6"> </translation>
+	<translation id="blocksc7"> </translation>
+	<translation id="blocksc8"> </translation>
+	<translation id="blocksc9"> </translation>
+
+	
 
 
 	
