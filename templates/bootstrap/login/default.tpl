@@ -3,24 +3,24 @@
     <input type="hidden" name="ctoken" value="{$CTOKEN|escape|default:""}">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-sign-in fa-fw"></i> Вход в существующий аккаунт
+        <i class="fa fa-sign-in fa-fw"></i> <span class="logina1">Login with existing account</span>
       </div>
       <div class="panel-body">
         <div class="form-group">
           <div class="input-group input-group-sm">
             <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-            <input class="form-control" placeholder="E-mail" name="username" type="email" autofocus required>
+            <input class="form-control" placeholder="<span class="logina2">E-mail</span>" name="username" type="email" autofocus required>
           </div>
           <div class="input-group input-group-sm">
             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-            <input class="form-control" placeholder="Password" name="password" type="password" value="" required>
+            <input class="form-control" placeholder="<span class="logina3">Password</span>" name="password" type="password" value="" required>
           </div>
         </div>
       </div>
       <center>{nocache}{$RECAPTCHA|default:"" nofilter}{/nocache}</center>
       <div class="panel-footer">
-        <input type="submit" class="btn btn-success btn-sm" value="Login" >
-        <a href="{$smarty.server.SCRIPT_NAME}?page=password"><font size="1">Забыли пароль?</font></a>
+        <input type="submit" class="btn btn-success btn-sm" value="<span class="logina4">Login</span>" >
+        <a href="{$smarty.server.SCRIPT_NAME}?page=password"><font size="1"><span class="logina5">Forgot your password?</span></font></a>
       </div>
     </div>
   </form>
