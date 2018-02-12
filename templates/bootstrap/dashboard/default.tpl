@@ -7,7 +7,7 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <h4 class="panel-title"><i class="fa fa-align-left fa-fw"></i><span class="dasha1"> Обзор</span></h4>
+        <h4 class="panel-title"><i class="fa fa-align-left fa-fw"></i> <span class="dasha1">Overview</span></h4>
       </div>
       <div class="panel-body text-center">
         <div class="row">
@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="panel-footer">
-       <center> <h6><span class="dasha2"> Update interval:</span> {$GLOBAL.config.statistics_ajax_refresh_interval|default:"60"} <span class="dasha3">seconds for farms and account</span> {$GLOBAL.config.statistics_ajax_long_refresh_interval|default:"30"} <span class="dasha4">seconds. Hashrayt is displayed by data for</span>  {$INTERVAL|default:"5"} <span class="dasha5">minutes.</span></h6></center>
+       <center> <h6><span class="dasha2">Refresh interval:</span> {$GLOBAL.config.statistics_ajax_refresh_interval|default:"60"} <span class="dasha3">seconds, worker and account</span> {$GLOBAL.config.statistics_ajax_long_refresh_interval|default:"30"} <span class="dasha4">seconds. Hashrate based on shares submitted in the past</span>  {$INTERVAL|default:"5"} <span class="dasha5">minutes.</span></h6></center>
       </div>
     </div>
   </div>
