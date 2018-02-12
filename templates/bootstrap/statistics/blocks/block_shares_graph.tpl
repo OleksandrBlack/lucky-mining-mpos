@@ -23,7 +23,7 @@ $(function () {
         data: blockdata,
         xkey: 'blockHeight',
         ykeys : ['estShares', {if $USEBLOCKAVERAGE}'avgShares', {/if}{if $GLOBAL.config.payout_system == 'pplns'}'pplnsShares', {/if} 'actShares'],
-        labels : ['<span class="blocksc2">Expected Shares</span>', {if $USEBLOCKAVERAGE}'Average Shares', {/if}{if $GLOBAL.config.payout_system == 'pplns'}'PPLNS Shares',{/if} 'Actual Shares'],
+        labels : ['<span class="blocksc2">Expected Shares</span>', {if $USEBLOCKAVERAGE}'<span class="blocksc3">Average Shares</span>', {/if}{if $GLOBAL.config.payout_system == 'pplns'}'<span class="blocksc4">PPLNS Shares</span>',{/if} '<span class="blocksc5">Actual Shares</span>'],
         pointSize: 2,
         lineColors: ['#2D9C2F','#D58665','#2D619C','#FF0000'],
         pointFillColors: ['#FFFFFF'],
