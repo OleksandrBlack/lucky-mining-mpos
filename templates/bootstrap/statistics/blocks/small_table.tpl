@@ -1,16 +1,16 @@
   <div class="col-lg-6">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-th fa-fw"></i>Последние найденные блоки
+        <i class="fa fa-th fa-fw"></i><span class="statslastblocks">Last Found Blocks</span>
       </div>
       <div class="panel-body no-padding table-responsive">
         <table class="table table-striped table-bordered table-hover">
           <thead>
             <tr>
-              <th>Блок</th>
-              <th>Нашедший</th>
-              <th>Время</th>
-              <th class="text-right">Актуально Шар</th>
+              <th class="statsblock">Block</th>
+              <th class="statsfinder">Finder</th>
+              <th class="statstime">Time</th>
+              <th class="text-right statsactualshares">Actual Shares</th>
             </tr>
           </thead>
           <tbody>
@@ -32,7 +32,7 @@
       </div>
 {if $GLOBAL.config.payout_system != 'pps'}
       <div class="panel-footer">
-          <h6>Note: Round Earnings are not credited until <font class="confirmations">{$GLOBAL.confirmations}</font> confirms.</h6>
+          <h6><span class="statsnote1">Note: Round Earnings are not credited until</span> <font class="confirmations">{$GLOBAL.confirmations}</font> <span class="statsnote2">confirms</span>.</h6>
       </div>
 {/if}
     </div>

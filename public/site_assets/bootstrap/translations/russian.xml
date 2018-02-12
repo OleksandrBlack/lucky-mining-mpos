@@ -166,6 +166,25 @@
 	<translation id="generalstatistics">Общая информация</translation>
 	<translation id="contributorhashrates">Хешрейт участников</translation>
 	<translation id="day">День</translation>
+	<translation id="statsprice">Стоимость</translation>
+	<translation id="statsnetrate">Хешрейт Сети</translation>
+	<translation id="statspoolrate">Хешрейт Пула</translation>
+	<translation id="statspooleff">Эффективность пула</translation>
+	<translation id="statsworkers">Активных ферм</translation>
+	<translation id="statsdifficulty">Текущая сложность</translation>
+	<translation id="statsnextdifficulty">Прибл. следующая сложность</translation>
+	<translation id="statstimeroundnet">Ожидаемое расчетное время раунда (сеть)</translation>
+	<translation id="statstimeroundpool">Ожидаемое расчетное время раунда (пул)</translation>
+	<translation id="statssharesround">Ожидаемое количество шар в этом раунде</translation>
+	<translation id="statsnextnetblock">Следующий блок сети</translation>
+	<translation id="statslastblocks">Последние найденные блоки</translation>
+	<translation id="statslastblocktime">Прошло после последнего блока</translation>
+	<translation id="statsactualshares">Фактически шар</translation>
+	<translation id="statsblock">Блок</translation>
+	<translation id="statsfinder">Нашедший</translation>
+	<translation id="statstime">Время</translation>
+	<translation id="statsnote1">Прим.: Round Earnings не будут зачислены до</translation>
+	<translation id="statsnote2">подтверждений</translation>
 	
 	
 </translations>
