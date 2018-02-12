@@ -2,7 +2,7 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-bitbucket fa-fw"></i> Доноры пула
+        <i class="fa fa-bitbucket fa-fw"></i> <span class="donorsa1">Pool Donors</span>
       </div>
       <div class="panel-body table-responsive">
       <table class="table table-striped table-bordered table-hover {if $DONORS}datatable{/if}">
@@ -10,7 +10,7 @@
           <tr>
             <th>Имя</th>
             <th>%</th>
-            <th>{$GLOBAL.config.currency} Всего</th>
+            <th>{$GLOBAL.config.currency} <span class="donorsa2">Total</span></th>
           </tr>
         </thead>
         <tbody>
@@ -22,7 +22,7 @@
           </tr>
 {sectionelse}
           <tr>
-            <td colspan="3">No confirmed donations yet, please be patient!</td>
+            <td colspan="3"><span class="donorsa3">No confirmed donations yet, please be patient!</span></td>
           </tr>
 {/section}
         </tbody>
