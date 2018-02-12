@@ -20,7 +20,7 @@
       <center>{nocache}{$RECAPTCHA|default:"" nofilter}{/nocache}</center>
       <div class="panel-footer">
         <input type="submit" class="btn btn-success btn-sm" value="Login" >
-        <a href="{$smarty.server.SCRIPT_NAME}?page=password"><font size="1"><span class="logina2">Forgot your password?</span></font></a>
+        <a href="{$smarty.server.SCRIPT_NAME}?page=password"><font size="1"> <span class="logina2">Forgot your password?</span></font></a>
       </div>
     </div>
   </form>
