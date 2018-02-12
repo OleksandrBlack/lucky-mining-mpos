@@ -8,18 +8,18 @@
     <input type="hidden" name="do" value="resetPassword">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">Password reset</h3>
+        <h3 class="panel-title"><span class="changea1">Password reset</span></h3>
       </div>
       <div class="panel-body">
         <div class="form-group">
           <fieldset>
-            <label>New Password</label>
+            <label><span class="changea2">New Password</span></span></label>
             <input class="form-control" type="password" name="newPassword" required>
           </fieldset>
         </div>
         <div class="form-group">
           <fieldset>
-            <label>Repeat New Password</label>
+            <label><span class="changea3">Repeat New Password</span></label>
             <input class="form-control" type="password" name="newPassword2" required>
           </fieldset>
         </div>
