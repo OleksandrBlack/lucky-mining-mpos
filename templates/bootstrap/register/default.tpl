@@ -13,23 +13,23 @@
       <input type="hidden" name="ctoken" value="{$CTOKEN|escape|default:""}">
       <input type="hidden" name="action" value="register">
       <div class="panel-heading">
-        <i class="fa fa-edit fa-fw"></i>Зарегистрировать новый аккаунт
+        <i class="fa fa-edit fa-fw"></i> <span class="registera2">Register new account</span>
       </div>
       <div class="panel-body">
         <div class="form-group">
-          <label>Имя пользователя</label>
+          <label><span class="registera3">Username</span></label>
           <div class="input-group  input-group-sm">
             <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
             <input type="text" class="form-control" name="username" placeholder="Username" value="{$smarty.post.username|escape|default:""}" size="15" maxlength="20" required>
           </div>
           {if $GLOBAL.coinaddresscheck|default:"1"}
-          <label>Адрес Вашего кошелька</label>
+          <label><span class="registera4">Coin Address</span></label>
           <div class="input-group input-group-sm">
             <span class="input-group-addon"><i class="fa fa-money fa-fw"></i></span>
             <input type="text" name="coinaddress" placeholder="Coin Address" class="form-control" value="{$smarty.post.coinaddress|escape|default:""}" size="15" required>
           </div>
           {/if}
-          <label>пароль</label> (<span id="pw_strength">сложность</span>)
+          <label><span class="registera5">Password</span></label> (<span id="pw_strength"><span class="registera6">Strength</span></span>)
           <div class="input-group input-group-sm">
             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
             <input type="password" class="form-control" name="password1" placeholder="Password" value="" size="15" maxlength="100" id="pw_field" required>
@@ -39,7 +39,7 @@
             <span class="input-group-addon" id="pw_match"><i class="fa fa-key fa-fw"></i></span>
             <input type="password" class="form-control" name="password2" placeholder="Repeat Password" value="" size="15" maxlength="100" id="pw_field2" required>
           </div>
-          <label>Email адрес</label>
+          <label><span class="registera7">Email</span></label>
           <div class="input-group input-group-sm">
             <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
             <input type="text" name="email1" placeholder="Email" class="form-control" value="{$smarty.post.email1|escape|default:""}" size="15" required>
@@ -48,15 +48,15 @@
             <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
             <input type="text" class="form-control" name="email2" placeholder="Repeat Email" value="{$smarty.post.email2|escape|default:""}" size="15" required>
           </div>
-          <label>PIN</label>
-          <font size="1">4 любые цифры. <b>Запомните его, а лучше запишите!</b></font>
+          <label><span class="registera8">PIN</span></label>
+          <font size="1"><span class="registera9">Four digit number.</span> <b><span class="registerb1">Remember it, and better write it down!</span></b></font>
           <div class="input-group input-group-sm">
             <span class="input-group-addon"><i class="fa fa-shield fa-fw"></i></span>
             <input type="password" class="form-control" name="pin" placeholder="PIN" value="" size="4" maxlength="4" required>   
           </div>
           <div class="input-group input-group-sm">
             <label>
-              <input type="checkbox" value="1" name="tac" id="tac"> Я принимаю <a data-toggle="modal" data-target="#TAC">Условия и положения</a>
+              <input type="checkbox" value="1" name="tac" id="tac"> <span class="registerb2">I Accept The</span> <a data-toggle="modal" data-target="#TAC"><span class="registerb3">Terms and Conditions</span></a>
             </label>
           </div>
         </div>
@@ -74,13 +74,13 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title" id="TACLabel">Условия и положения</h4>
+          <h4 class="modal-title" id="TACLabel"><span class="registerb3">Terms and Conditions</span></h4>
         </div>
         <div class="modal-body">
           {include file="tac/content.tpl"}
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Закрыть</button>
+          <button type="button" class="btn btn-default btn-sm" data-dismiss="modal"><span class="registerb4">Close</span></button>
         </div>
       </div>
     </div>
