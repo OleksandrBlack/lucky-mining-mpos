@@ -2,7 +2,7 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-clock-o fa-fw"></i> Обзор блоков
+        <i class="fa fa-clock-o fa-fw"></i> <span class="blocksa1">Block Overview</span>
       </div>
       <div class="panel-body no-padding">
         <div class="table-responsive">
@@ -10,22 +10,22 @@
             <thead>
               <tr>
                 <th></th>
-                <th class="text-right">Gen. Est.</th>
-                <th class="text-right">Найденные</th>
-                <th class="text-right">Подтвержденные</th>
-                <th class="text-right">Осиротевшие</th>
-                <th class="text-right">Осиротевших %</th>
-                <th class="text-right">Средняя Diff</th>
-                <th class="text-right">Shares Est.</th>
-                <th class="text-right">Shares</th>
-                <th class="text-right">Percentage</th>
-                <th class="text-right">Amount</th>
-                <th class="text-right">Rate Est.</th>
+                <th class="text-right"><span class="blocksa2">Gen. Est.</span></th>
+                <th class="text-right"><span class="blocksa3">Found</span></th>
+                <th class="text-right"><span class="blocksa4">Valid</span></th>
+                <th class="text-right"><span class="blocksa5">Orphan</span></th>
+                <th class="text-right"><span class="blocksa6">Orphan %</span></th>
+                <th class="text-right"><span class="blocksa7">Avg. Diff</span></th>
+                <th class="text-right"><span class="blocksa8">Shares Est.</span></th>
+                <th class="text-right"><span class="blocksa9">Shares</span></th>
+                <th class="text-right"><span class="blocksb1">Percentage</span></th>
+                <th class="text-right"><span class="blocksb2">Amount</span></th>
+                <th class="text-right"><span class="blocksb3">Rate Est.</span></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th>За все время</th>
+                <th><span class="blocksb4">All Time</span></th>
                 <td class="text-right">{($FIRSTBLOCKFOUND / $COINGENTIME)|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.Total|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.TotalValid|number_format}</td>
@@ -51,7 +51,7 @@
                 <td class="text-right">{($LASTBLOCKSBYTIME.Total|default:"0.00" / ($FIRSTBLOCKFOUND / $COINGENTIME)  * 100)|number_format:"2"}%</td>
               </tr>
               <tr>
-                <th>Last Hour</th>
+                <th><span class="blocksb5">Last Hour</span></th>
                 <td class="text-right">{(3600 / $COINGENTIME)|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.1HourTotal|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.1HourValid|number_format}</td>
@@ -77,7 +77,7 @@
                 <td class="text-right">{($LASTBLOCKSBYTIME.1HourTotal|default:"0.00" / (3600 / $COINGENTIME)  * 100)|number_format:"2"}%</td>
               </tr>
               <tr>
-                <th style="padding-left:3px;padding-right:1px;">Last 24 Hours</th>
+                <th style="padding-left:3px;padding-right:1px;"><span class="blocksb6">Last 24 Hours</span></th>
                 <td class="text-right">{(86400 / $COINGENTIME)|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.24HourTotal|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.24HourValid|number_format}</td>
@@ -103,7 +103,7 @@
                 <td class="text-right">{($LASTBLOCKSBYTIME.24HourTotal|default:"0.00" / (86400 / $COINGENTIME)  * 100)|number_format:"2"}%</td>
               </tr>
               <tr>
-                <th>Последние 7 дней</th>
+                <th><span class="blocksb7">Last 7 Days</span></th>
                 <td class="text-right">{(604800 / $COINGENTIME)|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.7DaysTotal|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.7DaysValid|number_format}</td>
@@ -129,7 +129,7 @@
                 <td class="text-right">{($LASTBLOCKSBYTIME.7DaysTotal|default:"0.00" / (604800 / $COINGENTIME)  * 100)|number_format:"2"}%</td>
               </tr>
               <tr>
-                <th>Последние 4 недели</th>
+                <th><span class="blocksb8">Last 4 Weeks</span></th>
                 <td class="text-right">{(2419200 / $COINGENTIME)|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.4WeeksTotal|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.4WeeksValid|number_format}</td>
@@ -155,7 +155,7 @@
                 <td class="text-right">{($LASTBLOCKSBYTIME.4WeeksTotal|default:"0.00" / (2419200 / $COINGENTIME)  * 100)|number_format:"2"}%</td>
               </tr>
               <tr>
-                <th>Последние 12 месяцев</th>
+                <th><span class="blocksb9">The Past 12 Months</span></th>
                 <td class="text-right">{(29030400 / $COINGENTIME)|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.12MonthTotal|number_format}</td>
                 <td class="text-right">{$LASTBLOCKSBYTIME.12MonthValid|number_format}</td>
