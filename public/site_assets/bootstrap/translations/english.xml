@@ -408,7 +408,28 @@
 	<translation id="graphsa4">Your average active workers per hour.</translation>
 	<translation id="graphsa5">Average Sharerate past 24h</translation>
 	<translation id="graphsa6">Your share rate per hour.</translation>
-
+	<translation id="rounda1">Block Statistics</translation>
+	<translation id="rounda2">Round Statistics</translation>
+	<translation id="rounda3">Block Statistics</translation>
+	<translation id="rounda4">PPLNS Round Statistics</translation>
+	<translation id="rounda5">PPLNS Shares</translation>
+	<translation id="rounda6">Height</translation>
+	<translation id="rounda7">Estimated Shares</translation>
+	<translation id="rounda8">Amount</translation>
+	<translation id="rounda9">Target Variance</translation>
+	<translation id="roundb1">Confirmations</translation>
+	<translation id="roundb2">Confirmed</translation>
+	<translation id="roundb3">Orphan</translation>
+	<translation id="roundb4">Block Average</translation>
+	<translation id="roundb5">Difficulty</translation>
+	<translation id="roundb6">Average Efficiency</translation>
+	<translation id="roundb7">Time</translation>
+	<translation id="roundb8">Target Rounds</translation>
+	<translation id="roundb9">Shares</translation>
+	<translation id="roundc1">Seconds This Round</translation>
+	<translation id="roundc2">Finder</translation>
+	<translation id="roundc3">Round Variance</translation>
+	<translation id="roundc4">Search Block Height</translation>
 
 	
 
