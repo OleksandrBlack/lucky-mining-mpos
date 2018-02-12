@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
-                    <span class="sr-only">Переключить навигацию</span>
+                    <span class="sr-only"><span class="globala1">Toggle navigation</span></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -40,10 +40,10 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    {if $GLOBAL.userdata.lastnotifications[notification].type == new_block}<i class="fa fa-th-large fa-fw"></i>Новые блоки
-                                    {else if $GLOBAL.userdata.lastnotifications[notification].type == payout}<i class="fa fa-money fa-fw"></i> Выплаты
-                                    {else if $GLOBAL.userdata.lastnotifications[notification].type == idle_worker}<i class="fa fa-desktop fa-fw"></i> IDLE Worker
-                                    {else if $GLOBAL.userdata.lastnotifications[notification].type == success_login}<i class="fa fa-sign-in fa-fw"></i>Успешные входы в систему
+                                    {if $GLOBAL.userdata.lastnotifications[notification].type == new_block}<i class="fa fa-th-large fa-fw"></i> <span class="globala2">New Block</span>
+                                    {else if $GLOBAL.userdata.lastnotifications[notification].type == payout}<i class="fa fa-money fa-fw"></i> <span class="globala3">Payout</span>
+                                    {else if $GLOBAL.userdata.lastnotifications[notification].type == idle_worker}<i class="fa fa-desktop fa-fw"></i> <span class="globala4">IDLE Worker</span>
+                                    {else if $GLOBAL.userdata.lastnotifications[notification].type == success_login}<i class="fa fa-sign-in fa-fw"></i> <span class="globala5">Successful Login</span>
                                     {/if}
                                     <span class="pull-right text-muted small">{$GLOBAL.userdata.lastnotifications[notification].time|relative_date}</span>
                                 </div>
@@ -54,7 +54,7 @@
 
                         <li>
                             <a class="text-center" href="{$smarty.server.SCRIPT_NAME}?page=account&action=notifications">
-                                <strong>Просмотреть все уведомления</strong>
+                                <strong><span class="globala6">See All Notifications</span></strong>
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         </li>
@@ -67,16 +67,16 @@
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                     	{if $smarty.session.AUTHENTICATED|default:"0" == 1}
-                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=dashboard"><i class="fa fa-dashboard fa-fw"></i><span class="dashlang"> Панель приборов</span></a>
-                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=account&action=edit"><i class="fa fa-gear fa-fw"></i><span class="setlang"> Настройки</span></a>
-                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=account&action=workers"><i class="fa fa-desktop fa-fw"></i><span class="worklang"> Фермы</span></a>
+                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=dashboard"><i class="fa fa-dashboard fa-fw"></i> <span class="dashlang">Dashboard</span></a>
+                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=account&action=edit"><i class="fa fa-gear fa-fw"></i> <span class="setlang">Settings</span></a>
+                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=account&action=workers"><i class="fa fa-desktop fa-fw"></i> <span class="worklang">Workers</span></a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=logout"><i class="fa fa-sign-out fa-fw"></i><span class="exitlang"> Выход</span></a>
+                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=logout"><i class="fa fa-sign-out fa-fw"></i> <span class="exitlang">Logout</span></a>
                         </li>
                         {else}
-                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=login"><i class="fa fa-sign-in fa-fw"></i><span class="loginlang"> Вход</span></a>
-                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=register"><i class="fa fa-pencil fa-fw"></i><span class="reglang"> Регистрация</span></a>
+                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=login"><i class="fa fa-sign-in fa-fw"></i> <span class="loginlang">Login</span></a>
+                        <li><a href="{$smarty.server.SCRIPT_NAME}?page=register"><i class="fa fa-pencil fa-fw"></i> <span class="reglang">Sign Up</span></a>
                         </li>
                         {/if}
                     </ul>
