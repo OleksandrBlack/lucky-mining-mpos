@@ -16,10 +16,10 @@
 	<translation id="contlang">Contact</translation>
 	<translation id="gotoforumlang">Go to Forum</translation>
 	<translation id="dasha1">Overview</translation>
-	<translation id="dasha2">Update interval:</translation>
-	<translation id="dasha3">seconds for farms and account</translation>
-	<translation id="dasha4">seconds. Hashrayt is displayed by data for</translation>
-	<translation id="dasha5">minutes</translation>
+	<translation id="dasha2">Refresh interval:</translation>
+	<translation id="dasha3">seconds, worker and account</translation>
+	<translation id="dasha4">seconds. Hashrate based on shares submitted in the past</translation>
+	<translation id="dasha5">minutes.</translation>
 	<translation id="dasha6">Pool Information</translation>
 	<translation id="dasha7">My Hashrate</translation>
 	<translation id="dasha8">Pool Hashrate</translation>
