@@ -23,7 +23,7 @@ $(function () {
         data: blockdata,
         xkey: 'blockHeight',
         ykeys : ['estShares', {if $USEBLOCKAVERAGE}'avgShares', {/if}{if $GLOBAL.config.payout_system == 'pplns'}'pplnsShares', {/if} 'actShares'],
-        labels : ['Expected Shares', {if $USEBLOCKAVERAGE}'Average Shares', {/if}{if $GLOBAL.config.payout_system == 'pplns'}'PPLNS Shares',{/if} 'Actual Shares'],
+        labels : ['<span class="blocksc2">Expected Shares</span>', {if $USEBLOCKAVERAGE}'Average Shares', {/if}{if $GLOBAL.config.payout_system == 'pplns'}'PPLNS Shares',{/if} 'Actual Shares'],
         pointSize: 2,
         lineColors: ['#2D9C2F','#D58665','#2D619C','#FF0000'],
         pointFillColors: ['#FFFFFF'],
@@ -38,7 +38,7 @@ $(function () {
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-th fa-fw"></i> Block Shares
+        <i class="fa fa-th fa-fw"></i> <span class="blocksc1">Block Shares</span>
       </div>
       <div class="panel-body">
         <ul class="pager">
