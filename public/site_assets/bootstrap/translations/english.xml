@@ -330,4 +330,34 @@
 	<translation id="ratelimit1">Request rate limit exceeded</translation>
 	<translation id="ratelimit2">You're sending too many requests too fast!</translation>
 	<translation id="con3lang">Copyright &copy; 2017-2018 Lucky-Mining. All rights reserved.</translation>
+	<translation id="globala1">Toggle navigation</translation>
+	<translation id="globala2">New Block</translation>
+	<translation id="globala3">Payout</translation>
+	<translation id="globala4">IDLE Worker</translation>
+	<translation id="globala5">Successful Login</translation>
+	<translation id="globala6">See All Notifications</translation>
+	<translation id="home">latest News</translation>
+	<translation id="logina1">Login with existing account</translation>
+	<translation id="logina2">Forgot your password?</translation>
+	<translation id="passa1">Password reset</translation>
+	<translation id="passa2">If you have an email set for your account, enter your username to get your password reset</translation>
+	<translation id="changea1">Password reset</translation>
+	<translation id="changea2">New Password</translation>
+	<translation id="changea3">Repeat New Password</translation>
+	<translation id="registera1">We are currently not accepting new user registrations.</translation>
+	<translation id="registera2">Register new account</translation>
+	<translation id="registera3">Username</translation>
+	<translation id="registera4">Coin Address</translation>
+	<translation id="registera5">Password</translation>
+	<translation id="registera6">Strength</translation>
+	<translation id="registera7">Email</translation>
+	<translation id="registera8">PIN</translation>
+	<translation id="registera9">Four digit number.</translation>
+	<translation id="registerb1">Remember it, and better write it down!</translation>
+	<translation id="registerb2">I Accept The</translation>
+	<translation id="registerb3">Terms and Conditions</translation>
+	<translation id="registerb4">Close</translation>
+
+
+	
 </translations>
