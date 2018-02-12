@@ -383,13 +383,22 @@
 	<translation id="blocksb9">The Past 12 Months</translation>
 	<translation id="blocksc1">Block Shares</translation>
 	<translation id="blocksc2">Expected Shares</translation>
-	<translation id="blocksc3"> </translation>
-	<translation id="blocksc4"> </translation>
-	<translation id="blocksc5"> </translation>
-	<translation id="blocksc6"> </translation>
-	<translation id="blocksc7"> </translation>
-	<translation id="blocksc8"> </translation>
-	<translation id="blocksc9"> </translation>
+	<translation id="blocksc3">Average Shares</translation>
+	<translation id="blocksc4">PPLNS Shares</translation>
+	<translation id="blocksc5">Actual Shares</translation>
+	<translation id="blocksc6">Last</translation>
+	<translation id="blocksc7">Blocks Found</translation>
+	<translation id="blocksc8">Block</translation>
+	<translation id="blocksc9">Validity</translation>
+	<translation id="blocksd1">Finder</translation>
+	<translation id="blocksd2">Time</translation>
+	<translation id="blocksd3">Difficulty</translation>
+	<translation id="blocksd4">Amount</translation>
+	<translation id="blocksd5">Expected Shares</translation>
+	<translation id="blocksd6">PPLNS Shares</translation>
+	<translation id="blocksd7">Actual Shares</translation>
+	<translation id="blocksd8">Percentage</translation>
+	<translation id="blocksd9">Totals</translation>
 
 	
 
