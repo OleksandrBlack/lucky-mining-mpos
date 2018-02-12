@@ -6,29 +6,29 @@
   <div class="col-lg-6">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-money fa-fw"></i> Выплаты
+        <i class="fa fa-money fa-fw"></i> <span class="edita1">Cash Out</span>
       </div>
       <div class="panel-body">
         <div class="row">
           <div class="col-lg-12">
             <div class="form-group">
               <p style="padding-left:3px; padding-redight:30px; font-size:10px;">
-                {if $GLOBAL.config.txfee_manual > 0}Внимание: {if $GLOBAL.config.txfee_manual > 0.00001}{$GLOBAL.config.txfee_manual}{else}{$GLOBAL.config.txfee_manual|number_format:"8"}{/if} {$GLOBAL.config.currency}будет взиматься плата при ручном вводе<span id="tt"><img width="15px" height="15px" title="This {if $GLOBAL.config.txfee_manual > 0.00001}{$GLOBAL.config.txfee_manual}{else}{$GLOBAL.config.txfee_manual|number_format:"8"}{/if} manual payment transaction fee is a network fee and goes back into the network not the pool." src="site_assets/bootstrap/images/questionmark.png"></span>{/if}
+                {if $GLOBAL.config.txfee_manual > 0}<span class="edita2">Please note: a</span> {if $GLOBAL.config.txfee_manual > 0.00001}{$GLOBAL.config.txfee_manual}{else}{$GLOBAL.config.txfee_manual|number_format:"8"}{/if} {$GLOBAL.config.currency}<span class="edita3">transaction will apply when processing "On-Demand" manual payments</span><span id="tt"><img width="15px" height="15px" title="<span class="edita4">This</span> {if $GLOBAL.config.txfee_manual > 0.00001}{$GLOBAL.config.txfee_manual}{else}{$GLOBAL.config.txfee_manual|number_format:"8"}{/if}<span class="edita5">manual payment transaction fee is a network fee and goes back into the network not the pool.</span> " src="site_assets/bootstrap/images/questionmark.png"></span>{/if}
               </p>
               <p style="padding-left:3px; padding-redight:30px; font-size:10px;">
-               Минимальная выплата: {$GLOBAL.config.mp_threshold} {$GLOBAL.config.currency}
+               <span class="edita6">Minimum Cashout:</span> {$GLOBAL.config.mp_threshold} {$GLOBAL.config.currency}
               </p>
             </div>
             <div class="form-group">
-              <label>Баланс аккаунта</label>
+              <label><span class="edita7">Account Balance</span></label>
               {nocache}<input class="form-control" id="disabledInput" type="text" value="{$GLOBAL.userdata.balance.confirmed|escape}" {$GLOBAL.config.currency} disabled />{/nocache}
             </div>
             <div class="form-group">
-              <label>Выплатить</label>
+              <label><span class="edita8">Payout to</span></label>
               {nocache}<input class="form-control" id="disabledInput" type="text" value="{$GLOBAL.userdata.coin_address|escape}" disabled />{/nocache}
             </div>
             <div class="form-group">
-              <label>Ваш PIN</label>
+              <label><span class="edita9">4 Digit PIN</span></label>
               <input class="form-control" type="password" name="authPin" size="4" maxlength="4" />
             </div>
           </div>

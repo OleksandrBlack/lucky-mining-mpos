@@ -8,14 +8,14 @@
 	    
 	    <div class="panel panel-info">
 	      <div class="panel-heading">
-	        <i class="fa fa-gear fa-fw"></i> Push Notification Settings
+	        <i class="fa fa-gear fa-fw"></i> <span class="notifia1">Push Notification Settings</span>
 	      </div>
 	      <div class="panel-body no-padding">
 	        <table class="table table-striped table-bordered table-hover">
 	          <tbody>
    	            <tr>
 	              <td>
-	                <label>Push Notifications</label>
+	                <label><span class="notifia2">Push Notifications</span></label>
 	              </td>
 	              <td>
 	              	<select name="pushnotification-class" class="form-control select-mini" id="push-notifications">
@@ -42,22 +42,22 @@
 	    
 	    <div class="panel panel-info">
 	      <div class="panel-heading">
-	        <i class="fa fa-gear fa-fw"></i> Notification Settings
+	        <i class="fa fa-gear fa-fw"></i> <span class="notifia3">Notification Settings</span>
 	      </div>
 	      <div class="panel-body no-padding push-notifications-disabled" id="push-notifications-pannel">
 	        <table class="table table-striped table-bordered table-hover">
 	          <thread>
 	        	<tr>
-	        	  <th>Event</th>
-	        	  <th>Email</th>
-	        	  <th class="push-notifications">Push</th>
+	        	  <th><span class="notifia4">Event</span></th>
+	        	  <th><span class="notifia5">Email</span></th>
+	        	  <th class="push-notifications"><span class="notifia6">Push</span></th>
 	        	</tr>
 	          </thread>
 	          <tbody>
 	            {if $DISABLE_IDLEWORKERNOTIFICATIONS|default:"" != 1}
 	            <tr>
 	              <td>
-	                <label>Idle Worker</label>
+	                <label><span class="notifia7">Idle Worker</span></label>
 	              </td>
 	              <td>
 	                <input type="hidden" name="data[idle_worker]" value="0" />
@@ -72,7 +72,7 @@
 	            {if $DISABLE_BLOCKNOTIFICATIONS|default:"" != 1}
 	            <tr>
 	              <td>
-	                <label>New Blocks</label>
+	                <label><span class="notifia8">New Blocks</span></label>
 	              </td>
 	              <td>
 	                <input type="hidden" name="data[new_block]" value="0" />
@@ -86,7 +86,7 @@
 	            {/if}
 	            <tr>
 	              <td>
-	                <label>Payout</label>
+	                <label><span class="notifia9">Payout</span></label>
 	              </td>
 	              <td>
 	                <input type="hidden" name="data[payout]" value="0" />
@@ -99,7 +99,7 @@
 	            </tr>
 	            <tr>
 	              <td>
-	                <label>Successful Login</label>
+	                <label><span class="notifib1">Successful Login</span></label>
 	              </td>
 	              <td>
 	                <input type="hidden" name="data[success_login]" value="0" />
@@ -113,7 +113,7 @@
 	            {if $DISABLE_POOLNEWSLETTER|default:"" != 1}
 	            <tr>
 	              <td>
-	                <label>Pool Newsletter</label>
+	                <label><span class="notifib2">Pool Newsletter</span></label>
 	              </td>
 	              <td>
 	                <input type="hidden" name="data[newsletter]" value="0" />
@@ -138,17 +138,17 @@
   <div class="col-lg-8">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-clock-o fa-fw"></i> Notification History
+        <i class="fa fa-clock-o fa-fw"></i> <span class="notifib3">Notification History</span>
       </div>
       <div class="panel-body no-padding">
         <div class="table-responsive">
           <table class="table table-striped table-bordered table-hover">
             <thead>
               <tr>
-                <th>ID</th>
-                <th>Time</th>
-                <th>Type</th>
-                <th>Active</th>
+                <th><span class="notifib4">ID</span></th>
+                <th><span class="notifib5">Time</span></th>
+                <th><span class="notifib6">Type</span></th>
+                <th><span class="notifib7">Active</span></th>
               </tr>
             </thead>
             <tbody>

@@ -18,10 +18,10 @@
   <div class="col-lg-4">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-qrcode fa-fw"></i> API String
+        <i class="fa fa-qrcode fa-fw"></i> <span class="qra1">API String</span>
       </div>
       <div class="panel-body text-center">
-        <p>This code will allow you to import the full API string into your mobile application.</p>
+        <p><span class="qra2">This code will allow you to import the full API string into your mobile application.</span></p>
         <div id="qrcodeholder"></div>
       </div>
     </div>

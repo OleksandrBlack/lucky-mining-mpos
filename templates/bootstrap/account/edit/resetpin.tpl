@@ -6,13 +6,13 @@
   <div class="col-lg-6">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-lock fa-fw"></i> Сбросить PIN
+        <i class="fa fa-lock fa-fw"></i> <span class="editd3">Reset PIN</span>
       </div>
       <div class="panel-body">
         <div class="row">
           <div class="col-lg-12">
             <div class="form-group">
-              <label>Действующий пароль</label>
+              <label><span class="editd4">Current Password</span></label>
               <input class="form-control" type="password" name="currentPassword">
             </div>
           </div>
