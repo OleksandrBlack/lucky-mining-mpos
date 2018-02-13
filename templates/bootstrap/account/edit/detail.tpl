@@ -48,7 +48,7 @@
               {nocache}<input class="form-control" type="text" name="donatePercent" value="{$smarty.request.donatePercent|default:$GLOBAL.userdata.donate_percent|escape|number_format:"2"}" size="4" {if $GLOBAL.twofactor.enabled && $GLOBAL.twofactor.options.details && !$DETAILSUNLOCKED}id="disabledInput" disabled{/if}/>{/nocache}
             </div>
             <div class="form-group">
-              <label><span class="editс1">Automatic Payout Threshold</span></label>
+              <label><span class="editc1">Automatic Payout Threshold</span></label>
               </br>
               <font size="1">{if $GLOBAL.config.ap_threshold.min < 0.0001}{$GLOBAL.config.ap_threshold.min|number_format:"8"}{else}{$GLOBAL.config.ap_threshold.min}{/if} - {if $GLOBAL.config.ap_threshold.max < 0.0001}{$GLOBAL.config.ap_threshold.max|number_format:"8"}{else}{$GLOBAL.config.ap_threshold.max}{/if} {$GLOBAL.config.currency}. Set to '0' for no auto payout.{if $GLOBAL.config.txfee_auto > 0} A {if $GLOBAL.config.txfee_auto > 0.00001}{$GLOBAL.config.txfee_auto}{else}{$GLOBAL.config.txfee_auto|number_format:"8"}{/if} {$GLOBAL.config.currency} TX fee will apply <span id="tt"><img width="15px" height="15px" title="This {if $GLOBAL.config.txfee_auto > 0.00001}{$GLOBAL.config.txfee_auto}{else}{$GLOBAL.config.txfee_auto|number_format:"8"}{/if} automatic payment transaction fee is a network fee and goes back into the network not the pool." src="site_assets/bootstrap/images/questionmark.png"></span>{/if}</font>
               </br>
