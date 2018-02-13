@@ -1,18 +1,18 @@
   <div class="col-lg-6">
     <div class="panel panel-info">
       <div class="panel-heading">
-        Round Transactions
+        <span class="roundc8">Round Transactions</span>
       </div>
       <div class="panel-body">
         <div class="table-responsive">
           <table class="table table-striped table-bordered table-hover {if $ROUNDTRANSACTIONS}datatable{/if}">
             <thead>
               <tr>
-                <th>User Name</th>
-                <th>Type</th>
-                <th>Round Shares</th>
-                <th>Round %</th>
-                <th>Amount</th>
+                <th><span class="username">User Name</span></th>
+                <th><span class="notifib6">Type</span></th>
+                <th><span class="roundc9">Round Shares</span></th>
+                <th><span class="roundd1">Round %</span></th>
+                <th><span class="dashh6">Amount</span></th>
               </tr>
             </thead>
             <tbody>
