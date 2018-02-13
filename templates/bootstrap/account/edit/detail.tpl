@@ -55,15 +55,15 @@
               <input class="form-control" type="text" name="payoutThreshold" value="{nocache}{$smarty.request.payoutThreshold|default:$GLOBAL.userdata.ap_threshold|escape}{/nocache}" size="{$GLOBAL.config.ap_threshold.max|strlen+4}" maxlength="{if $GLOBAL.config.ap_threshold.max < 1}10{else}{$GLOBAL.config.ap_threshold.max|strlen}{/if}" {if $GLOBAL.twofactor.enabled && $GLOBAL.twofactor.options.details && !$DETAILSUNLOCKED}id="disabledInput" disabled{/if}/>
             </div>
             <div class="form-group">
-              <label><span class="editс2">Anonymous Account</span></label>
+              <label><span class="editc2">Anonymous Account</span></label>
               <input type="hidden" name="is_anonymous" value="0" />
               <input type="checkbox" class="switch" data-size="mini"  name="is_anonymous" id="is_anonymous" value="1" {if $GLOBAL.userdata.is_anonymous}checked{/if} {if $GLOBAL.twofactor.enabled && $GLOBAL.twofactor.options.details && !$DETAILSUNLOCKED}id="disabledInput" disabled{/if}/>
               </br>
-              <font size="1"><span class="editс3">Hide username on website from others. Admins can still get your user information.</span></font>
+              <font size="1"><span class="editc3">Hide username on website from others. Admins can still get your user information.</span></font>
             </div>
             <div class="form-group">
-              <label><span class="editс4">4 Digit PIN</span></label>
-              <font size="1"><span class="editс5">The 4 digit PIN you chose when registering</span></font>
+              <label><span class="editc4">4 Digit PIN</span></label>
+              <font size="1"><span class="editc5">The 4 digit PIN you chose when registering</span></font>
               <input class="form-control" type="password" name="authPin" size="4" maxlength="4">
             </div>
           </div>
