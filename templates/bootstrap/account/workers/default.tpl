@@ -77,7 +77,7 @@
             </table>
           </div>
           <div class="panel-footer">
-            <input type="submit" class="btn btn-success btn-sm" value="<span class="workb3">Update Workers</span>">
+            <span class="workb3"><input type="submit" class="btn btn-success btn-sm" value="Update Workers"></span>
           </div>
         </div>
       </form>
