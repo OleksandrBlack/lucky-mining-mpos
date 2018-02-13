@@ -316,7 +316,7 @@
 	<translation id="worka9">Monitor</translation>
 	<translation id="workb1">Difficulty</translation>
 	<translation id="workb2">Action</translation>
-	<translation id="workb3">Update Workers</translation>
+	<translation id="workb3"><input type="submit" class="btn btn-success btn-sm" value="Update Workers">Update Workers</translation>
 	<translation id="conta1">Contact Us</translation>
 	<translation id="conta2">Your Name</translation>
 	<translation id="conta3">Please type your name</translation>
