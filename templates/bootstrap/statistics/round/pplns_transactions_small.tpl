@@ -2,24 +2,24 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-refresh fa-fw"></i>Общая статистика
+        <i class="fa fa-refresh fa-fw"></i> <span class="rounda2">Round Statistics</span>
       </div>
       <div class="panel-body">
         <div class="table-responsive">
           <table class="table table-striped table-bordered table-hover {if $ROUNDTRANSACTIONS}datatable{/if}">
             <thead>
               <tr>
-                <th >Имя пользователя</th>
-                <th>Round Valid</th>
-                <th>Invalid</th>
-                <th>Invalid %</th>
-                <th>Round %</th>
-                <th>PPLNS Valid</th>
-                <th>Invalid</th>
-                <th>Invalid %</th>
-                <th>PPLNS Round %</th>
-                <th>Variance</th>
-                <th>Amount</th>
+                <th ><span class="username">User Name</span></th>
+                <th><span class="roundd4">Round Valid</span></th>
+                <th><span class="dashс8">Invalid</span></th>
+                <th><span class="roundc7">Invalid %</span></th>
+                <th><span class="roundd1">Round %</span></th>
+                <th><span class="roundd5">PPLNS Valid</span></th>
+                <th><span class="dashс8">Invalid</span></th>
+                <th><span class="roundc7">Invalid %</span></th>
+                <th><span class="roundd2">PPLNS Round %</span></th>
+                <th><span class="roundd3">Variance</span></th>
+                <th><span class="blocksd4">Amount</span></th>
               </tr>
             </thead>
             <tbody>
