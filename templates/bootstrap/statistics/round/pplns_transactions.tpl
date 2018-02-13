@@ -2,20 +2,20 @@
   <div class="col-lg-12">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <i class="fa fa-credit-card fa-fw"></i> Статистика транзакций
+        <i class="fa fa-credit-card fa-fw"></i> <span class="roundc8">Round Transactions</span>
       </div>
       <div class="panel-body ">
         <div class="table-responsive">
           <table class="table table-striped table-bordered table-hover {if $ROUNDTRANSACTIONS}datatable{/if}">
             <thead>
               <tr>
-                <th>Имя пользователя</th>
-                <th>Статистика шар</th>
-                <th>Общий %</th>
-                <th>PPLNS Шар</th>
-                <th>PPLNS % Шар</th>
-                <th>Отклонение</th>
-                <th>Количество</th>
+                <th><span class="username">User Name</span></th>
+                <th><span class="roundc9">Round Shares</span></th>
+                <th><span class="roundd1">Round %</span></th>
+                <th><span class="blocksd6">PPLNS Shares</span></th>
+                <th><span class="roundd2">PPLNS Round %</span></th>
+                <th><span class="roundd3">Variance</span></th>
+                <th><span class="blocksd4">Amount</span></th>
               </tr>
             </thead>
             <tbody>
