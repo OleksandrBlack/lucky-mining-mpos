@@ -37,12 +37,12 @@
             {if !$GLOBAL.website.api.disabled}
             <div class="form-group">
               <label><span class="editb4">API Key</span></label>
-              <br>
-              <center>
-              <a href="{$smarty.server.SCRIPT_NAME}?page=api&action=getuserstatus&api_key={$GLOBAL.userdata.api_key}&id={$GLOBAL.userdata.id}">{$GLOBAL.userdata.api_key}</a>
-              <br>
-            <div id="qrcodeapi"></div>
-            </center>
+                <br>
+                  <center>
+                    <a href="{$smarty.server.SCRIPT_NAME}?page=api&action=getuserstatus&api_key={$GLOBAL.userdata.api_key}&id={$GLOBAL.userdata.id}">{$GLOBAL.userdata.api_key}</a>
+                <br>
+              <div id="qrcodeapi"></div>
+                  </center>
             </div>
             {/if}
             <div class="form-group">
