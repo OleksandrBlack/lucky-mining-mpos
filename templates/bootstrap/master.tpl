@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <script id="chatBroEmbedCode" src="https://lucky-mining.com.ua/js/chat.js" defer></script>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{$GLOBAL.website.title} - {$smarty.request.page|escape|default:"home"|capitalize}</title>
