@@ -1,3 +1,18 @@
+<script type="text/javascript" src="{$PATH}/js/jquery.qrcode.min.js"></script>
+<script type="text/javascript">
+  {literal}
+  $(document).ready(function(){
+    $('#qrcodeapi').qrcode({
+      text    : "{/literal}{$GLOBAL.userdata.api_key}{literal}",
+      render    : "canvas",  // 'canvas' or 'table'. Default value is 'canvas'
+      background : "#ffffff",
+      foreground : "#000000",
+      width : 250,
+      height: 250 
+    });
+  });
+  {/literal}
+</script>
 <form action="{$smarty.server.SCRIPT_NAME}" method="post" role="form">
   <input type="hidden" name="page" value="{$smarty.request.page|escape}">
   <input type="hidden" name="action" value="{$smarty.request.action|escape}">
@@ -23,7 +38,11 @@
             <div class="form-group">
               <label><span class="editb4">API Key</span></label>
               <br>
+              <center>
               <a href="{$smarty.server.SCRIPT_NAME}?page=api&action=getuserstatus&api_key={$GLOBAL.userdata.api_key}&id={$GLOBAL.userdata.id}">{$GLOBAL.userdata.api_key}</a>
+              <br>
+            <div id="qrcodeapi"></div>
+            </center>
             </div>
             {/if}
             <div class="form-group">
