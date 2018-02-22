@@ -1,6 +1,5 @@
 
         <div class="footer">
-		  <script src="site_assets/bootstrap/js/chat.js"></script>
           <font size="2">
             <center>
 
