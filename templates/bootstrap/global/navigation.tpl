@@ -100,8 +100,8 @@
                           <li><a href="{$smarty.server.SCRIPT_NAME}?page=login"><i class="fa fa-sign-in fa-fw"></i> <span class="navf4">Login</span></a></li>
                           <li><a href="{$smarty.server.SCRIPT_NAME}?page=register"><i class="fa fa-pencil fa-fw"></i> <span class="navf5">Sign Up</span></a></li>
                           {/if}
-                          {acl_check page='contactform' action='' name='<i class="fa fa-envelope fa-fw"></i> <span class="navс6">Contact</span>' acl=$GLOBAL.acl.contactform}
-                          <li><a href="{$smarty.server.SCRIPT_NAME}?page=tac"><i class="fa fa-book fa-fw"></i> <span class="navс7">Terms and Conditions</span></a></li>
+                          {acl_check page='contactform' action='' name='<i class="fa fa-envelope fa-fw"></i> <span class="navf6">Contact</span>' acl=$GLOBAL.acl.contactform}
+                          <li><a href="{$smarty.server.SCRIPT_NAME}?page=tac"><i class="fa fa-book fa-fw"></i> <span class="navf7">Terms and Conditions</span></a></li>
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
