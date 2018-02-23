@@ -86,19 +86,19 @@
                           <li><a href="{$smarty.server.SCRIPT_NAME}?page=gettingstarted"><i class="fa fa-question fa-fw"></i> <span class="navd7">Getting Started</span></a></li>
                           {acl_check page='about' action='pool' name='<i class="fa fa-info fa-fw"></i> <span class="navd8">About</span>' acl=$GLOBAL.acl.about.page}
                           {acl_check page='about' action='chat' name='<i class="fa fa-comments-o fa-fw"></i> <span class="navd9">Web Chat</span>' acl=$GLOBAL.acl.chat.page}
-                          {acl_check page='about' action='moot' name='<i class="fa fa-ticket fa-fw"></i> <span class="navс1">Forum</span>' acl=$GLOBAL.acl.moot.forum}
+                          {acl_check page='about' action='moot' name='<i class="fa fa-ticket fa-fw"></i> <span class="navf1">Forum</span>' acl=$GLOBAL.acl.moot.forum}
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
                     {/if}
                     <li {if $smarty.get.page|default:"0" eq "register" || $smarty.get.page|default:"0" eq "login" || $smarty.get.page|default:"0" eq "logout" || $smarty.get.page|default:"0" eq "tac" || $smarty.get.page|default:"0" eq "contactform"}class="active"{/if}>
-                        <a href="#"><i class="fa fa-tasks fa-fw"></i> <span class="navс2">Other</span><span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-tasks fa-fw"></i> <span class="navf2">Other</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                           {if $smarty.session.AUTHENTICATED|default:"0" == 1}
-                          <li><a href="{$smarty.server.SCRIPT_NAME}?page=logout"><i class="fa fa-sign-out fa-fw"></i> <span class="navс3">Logout</span></a></li>
+                          <li><a href="{$smarty.server.SCRIPT_NAME}?page=logout"><i class="fa fa-sign-out fa-fw"></i> <span class="navf3">Logout</span></a></li>
                           {else}
-                          <li><a href="{$smarty.server.SCRIPT_NAME}?page=login"><i class="fa fa-sign-in fa-fw"></i> <span class="navс4">Login</span></a></li>
-                          <li><a href="{$smarty.server.SCRIPT_NAME}?page=register"><i class="fa fa-pencil fa-fw"></i> <span class="navс5">Sign Up</span></a></li>
+                          <li><a href="{$smarty.server.SCRIPT_NAME}?page=login"><i class="fa fa-sign-in fa-fw"></i> <span class="navf4">Login</span></a></li>
+                          <li><a href="{$smarty.server.SCRIPT_NAME}?page=register"><i class="fa fa-pencil fa-fw"></i> <span class="navf5">Sign Up</span></a></li>
                           {/if}
                           {acl_check page='contactform' action='' name='<i class="fa fa-envelope fa-fw"></i> <span class="navс6">Contact</span>' acl=$GLOBAL.acl.contactform}
                           <li><a href="{$smarty.server.SCRIPT_NAME}?page=tac"><i class="fa fa-book fa-fw"></i> <span class="navс7">Terms and Conditions</span></a></li>
