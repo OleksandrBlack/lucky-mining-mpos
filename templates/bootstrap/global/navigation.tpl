@@ -4,6 +4,9 @@
                     <li>
                         <a href="https://lucky-mining.com.ua/"><i class="fa fa-home fa-fw"></i> <span class="selpoollang">Select Pool</span></a>
                     </li>
+                    <li>
+                        <a href="https://lucky-mining.com.ua/discord/index.html"><i class="fa fa-comments-o fa-fw"></i> <span class="discordlang">Discord Chat</span></a>
+                    </li>
                     {if $smarty.session.AUTHENTICATED|default:"0" == 1}
                     <li>
                         <a href="{$smarty.server.SCRIPT_NAME}?page=dashboard"><i class="fa fa-dashboard fa-fw"></i> <span class="dashlang">Dashboard</span></a>
