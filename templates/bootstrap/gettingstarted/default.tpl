@@ -15,8 +15,8 @@
     <p>2. <strong><span class="getb2">Download a miner.</span></strong></p>
       <ul>
 
-	        <li><em><span class="getb3">GPU Miner EWBF NVIDIA:</span></em> <b>Wondows</b> <a href="https://mega.nz/#F!usQh2bTa!3qp_PaiO-dw3F0mpvLXynA" target="_blank"><span class="getb4">Download Here</span></a><b> | Linux </b><a href="https://mega.nz/#F!aop0BLaR!qQUGG6C2ZhE2zAC0XAlMSw" target="_blank"><span class="getb4">Download Here</span></a></li>
-        <li><em><span class="getb5">GPU Miner Claymore AMD:</span></em> <b>Wondows</b><b> | Linux</b> <a href="https://mega.nz/#F!P0ZjFDjC!Cmb-ZRqlbAnNrajRtp4zvA" target="_blank"><span class="getb6">Download Here</span></a></li>
+	        <li><em><span class="getb3">GPU Miner EWBF NVIDIA:</span></em> <b>Windows</b> <a href="https://mega.nz/#F!usQh2bTa!3qp_PaiO-dw3F0mpvLXynA" target="_blank"><span class="getb4">Download Here</span></a><b> | Linux </b><a href="https://mega.nz/#F!aop0BLaR!qQUGG6C2ZhE2zAC0XAlMSw" target="_blank"><span class="getb4">Download Here</span></a></li>
+        <li><em><span class="getb5">GPU Miner Claymore AMD:</span></em> <b>Windows</b><b> | Linux</b> <a href="https://mega.nz/#F!P0ZjFDjC!Cmb-ZRqlbAnNrajRtp4zvA" target="_blank"><span class="getb6">Download Here</span></a></li>
       </ul>
     </li>
     <p>3. <strong><span class="getb7">Configure your miner. (for Windows)</span></strong></p>
