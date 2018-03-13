@@ -128,6 +128,9 @@ $setting->getValue('website_blockexplorer_url') ? $aGlobal['website']['blockexpl
 $setting->getValue('website_transactionexplorer_url') ? $aGlobal['website']['transactionexplorer']['url'] = $setting->getValue('website_transactionexplorer_url') : $aGlobal['website']['transactionexplorer']['url'] = 'http://explorer.litecoin.net/tx/';
 $setting->getValue('website_chaininfo_url') ? $aGlobal['website']['chaininfo']['url'] = $setting->getValue('website_chaininfo_url') : $aGlobal['website']['chaininfo']['url'] = 'http://allchains.info';
 
+// Calculator
+$setting->getValue('website_calculator_url') ? $aGlobal['cryptocalc']['calculator']['url'] = $setting->getValue('website_calculator_url') : $aGlobal['cryptocalc']['calculator']['url'] = 'https://www.crypto-coinz.net/crypto-calculator/';
+
 // Google Analytics
 $aGlobal['statistics']['analytics']['enabled'] = $setting->getValue('statistics_analytics_enabled');
 $aGlobal['statistics']['analytics']['code'] = $setting->getValue('statistics_analytics_code');
