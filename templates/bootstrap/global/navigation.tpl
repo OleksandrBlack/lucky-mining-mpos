@@ -4,9 +4,6 @@
                     <li>
                         <a href="https://lucky-mining.com.ua/"><i class="fa fa-home fa-fw"></i> <span class="selpoollang">Select Pool</span></a>
                     </li>
-                    <li>
-                        <a href="https://lucky-mining.com.ua/discord/index.html"><i class="fa fa-comments-o fa-fw"></i> <span class="discordlang">Discord Chat</span></a>
-                    </li>
                     {if $smarty.session.AUTHENTICATED|default:"0" == 1}
                     <li>
                         <a href="{$smarty.server.SCRIPT_NAME}?page=dashboard"><i class="fa fa-dashboard fa-fw"></i> <span class="dashlang">Dashboard</span></a>
@@ -108,9 +105,12 @@
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
-					 <li>
-                        <a href="http://forum.lucky-mining.com.ua/"><i class="fa fa-home fa-fw"></i> <span class="gotoforumlang">Go to Forum</span></a>
-                    </li>
+			<li>
+				<a href="{$GLOBAL.cryptocalc.calculator.url}" target="_blank"><i class="fa fa-calculator fa-fw"></i> <span class="cryptocalc">Calculator</span></a>
+			</li>
+			<li>
+				<a href="https://lucky-mining.com.ua/discord/index.html"><i class="fa fa-comments-o fa-fw"></i> <span class="discordlang">Discord Chat</span></a>
+			</li>
                 </ul>
                 <!-- /#side-menu -->
             </div>
