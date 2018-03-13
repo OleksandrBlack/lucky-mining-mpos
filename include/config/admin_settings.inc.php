@@ -104,6 +104,13 @@ $aSettings['website'][] = array(
   'name' => 'website_blockfinder_notification', 'value' => $setting->getValue('website_blockfinder_notification'),
   'tooltip' => 'Enable/Disable Blockfinder Sound.'
 );
+$aSettings['cryptocalc'][] = array(
+  'display' => 'Calculator URL', 'type' => 'text',
+  'size' => 50,
+  'default' => 'https://www.crypto-coinz.net/crypto-calculator/',
+  'name' => 'website_calculator_url', 'value' => $setting->getValue('website_calculator_url'),
+  'tooltip' => 'The URL of the crypto-calculator website for your coin. Leave blank to disable this.'
+);
 $aSettings['blockchain'][] = array(
   'display' => 'Disable Blockexplorer', 'type' => 'select',
   'options' => array( 0 => 'No', 1 => 'Yes' ),
