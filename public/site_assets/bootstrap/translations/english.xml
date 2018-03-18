@@ -94,7 +94,7 @@
 	<translation id="getb6">Download Here</translation>
 	<translation id="getb7">Configure your miner. (for Windows)</translation>
 	<translation id="getb8">Port and its difficulty</translation>
-	<translation id="getb9">Automatic difficulty setting</translation>
+	<translation id="getb9">(Recommended)</translation>
 	<translation id="getc1">varDiff : 0.5</translation>
 	<translation id="getc2">GPU Miner EWBF NVIDIA</translation>
 	<translation id="getc3">Weblogin</translation>
@@ -444,4 +444,15 @@
 	<translation id="roundd7">These stats are also available in JSON format</translation>
 	<translation id="discordlang">Discord Chat</translation>
 	<translation id="cryptocalc">Calculator</translation>
+	<translation id="miner">Miner</translation>
+	<translation id="ssl_support">ssl support</translation>
+	<translation id="windows">For Windows</translation>
+	<translation id="sel_port">Select Port</translation>
+	<translation id="cpu_ports">CPU Ports</translation>
+	<translation id="ssl_ports">SSL Ports</translation>
+	<translation id="std_ports">Standard Ports</translation>
+	<translation id="nice_ports">Nicehash Ports</translation>
+	<translation id="conf_miner">Configure Miner</translation>
+	<translation id="auto_dif">(Automatic difficulty setting)</translation>
+	<translation id="cpu_threads">cpu_threads</translation>
 </translations>
