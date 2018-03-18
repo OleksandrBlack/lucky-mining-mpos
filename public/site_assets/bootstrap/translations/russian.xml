@@ -94,7 +94,7 @@
 	<translation id="getb6">Загрузить</translation>
 	<translation id="getb7">Настройте конфиг своего майнера. (для Windows)</translation>
 	<translation id="getb8">Порт и его сложность</translation>
-	<translation id="getb9">Автоматическая настройка сложности</translation>
+	<translation id="getb9">(Рекомендуемый)</translation>
 	<translation id="getc1">varDiff : 0.5</translation>
 	<translation id="getc2">GPU Miner EWBF NVIDIA</translation>
 	<translation id="getc3">логин_сайта</translation>
@@ -444,4 +444,15 @@
 	<translation id="roundd7">These stats are also available in JSON format</translation>
 	<translation id="discordlang">Discord Чат</translation>
 	<translation id="cryptocalc">Калькулятор</translation>
+	<translation id="miner">Майнер</translation>
+	<translation id="ssl_support">поддержка ssl</translation>
+	<translation id="windows">Для Windows</translation>
+	<translation id="sel_port">Выбрать Порт</translation>
+	<translation id="cpu_ports">CPU Порт</translation>
+	<translation id="ssl_ports">SSL Порты</translation>
+	<translation id="std_ports">Стандартные Порты</translation>
+	<translation id="nice_ports">Nicehash Порт</translation>
+	<translation id="conf_miner">Настройка Майнера</translation>
+	<translation id="auto_dif">(Автоматическая настройка сложности)</translation>
+	<translation id="cpu_threads">ядра_процессора</translation>
 </translations>
