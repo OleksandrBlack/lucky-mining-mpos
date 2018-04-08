@@ -60,8 +60,11 @@
       <div class="panel-heading">
         <h4 class="panel-title"><center><i class="fa fa fa-question fa-fw"></i> <lng class="geta1">Get Started</lng> - <a href="{$smarty.server.SCRIPT_NAME}?page=gettingstarted"><lng class="geta2">Learn More</lng></a></center></h4>
       	  <BR>
-	  <h2 class="panel-title"><center>
-	 
+		  <center>
+		  <span class="statsnetrate">Network hashrate</span>: <b>{$GLOBAL.nethashrate|number_format:"3"}</b> {$GLOBAL.hashunits.network}<BR>
+		  <span class="statspoolrate">Pool hashrate</span>: <span id="b-hashrate"><b>{$GLOBAL.hashrate|number_format:"3"}</b></span> {$GLOBAL.hashunits.pool}<BR>
+		  <span class="statsworkers">Current Active Workers</span>: <b>{$GLOBAL.workers|number_format}</b><BR>
+		  </center>
 	  </div>
 	  </div>
 	  </div>
