@@ -60,11 +60,27 @@
       <div class="panel-heading">
         <h4 class="panel-title"><center><i class="fa fa fa-question fa-fw"></i> <lng class="geta1">Get Started</lng> - <a href="{$smarty.server.SCRIPT_NAME}?page=gettingstarted"><lng class="geta2">Learn More</lng></a></center></h4>
       	  <BR>
-		  <center>
-		  <span class="statsnetrate">Network hashrate</span>: <b>{$GLOBAL.nethashrate|number_format:"3"}</b> {$GLOBAL.hashunits.network}<BR>
-		  <span class="statspoolrate">Pool hashrate</span>: <span id="b-hashrate"><b>{$GLOBAL.hashrate|number_format:"3"}</b></span> {$GLOBAL.hashunits.pool}<BR>
-		  <span class="statsworkers">Current Active Workers</span>: <b>{$GLOBAL.workers|number_format}</b><BR>
-		  </center>
+		<center>
+{nocache}
+		<span class="statsnetrate">Network hashrate</span>: <b>{$GLOBAL.nethashrate|number_format:"3"}</b> {$GLOBAL.hashunits.network}<BR>
+		<span class="statspoolrate">Pool hashrate</span>: <span id="b-hashrate"><b>{$GLOBAL.hashrate|number_format:"3"}</b></span> {$GLOBAL.hashunits.pool}<BR>
+		<span class="statsworkers">Current Active Workers</span>: <b>{$GLOBAL.workers|number_format}</b><BR>
+		<td colspan="2">
+		{if $GLOBAL.userdata.no_fees}
+			<span class="dashd2">You are mining without any pool fees applied and</span>
+		{else if $GLOBAL.fees > 0}
+			<span class="dashd3">You are mining at</span> <font color="orange">{if $GLOBAL.fees < 0.0001}{$GLOBAL.fees|escape|number_format:"8"}{else}{$GLOBAL.fees|escape}{/if}%</font> <span class="dashd4">pool fee and</span>
+		{else}
+			<span class="dashd5">This pool does not apply fees and</span>
+		{/if}
+		{if $GLOBAL.userdata.donate_percent > 0}
+			<span class="dashd6">you donate</span> <font color="green">{$GLOBAL.userdata.donate_percent|escape}%</font>.
+		{else}
+			<span class="dashd7">you are not</span> <a href="{$smarty.server.SCRIPT_NAME}?page=account&action=edit"><span class="dashd8">donating</span></a>.
+		{/if}
+		</td>
+{/nocache}
+		</center>
 	  </div>
 	  </div>
 	  </div>
