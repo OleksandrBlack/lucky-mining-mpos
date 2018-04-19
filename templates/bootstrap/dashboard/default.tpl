@@ -21,7 +21,8 @@
           {if !$DISABLED_API}
           {include file="dashboard/worker_information/default.tpl"}
           {/if}
-          {include file="dashboard/blocks/default.tpl"}
+	{include file="dashboard/credits/default.tpl"}
+	{include file="dashboard/blocks/default.tpl"}
           </div>
         </div>
       </div>
